@@ -80,7 +80,16 @@ pip3 freeze
 
 ![Virtual Environment](images/02pythonenviroment.png)
 
-
-
-
+```bash
+# Navigate to the target directory
+cd labs/devnet-src/python/
+# Create a virtual environment named 'devfun'
+python3 -m venv devfun
+# Activate the virtual environment
+source devfun/bin/activate
+# Install the requests package inside the isolated environment
+pip3 install requests
+# Verify the packages installed in the active environment
+pip3 freeze
+```
 
