@@ -80,6 +80,8 @@ pip3 freeze
 
 ![Virtual Environment](images/02pythonenviroment.png)
 
+**Complete Script:**
+
 ```bash
 # Navigate to the target directory
 cd labs/devnet-src/python/
