@@ -82,18 +82,7 @@ pip3 freeze
 
 **Complete Script:**
 
-```bash
-# Navigate to the target directory
-cd labs/devnet-src/python/
-# Create a virtual environment named 'devfun'
-python3 -m venv devfun
-# Activate the virtual environment
-source devfun/bin/activate
-# Install the requests package inside the isolated environment
-pip3 install requests
-# Verify the packages installed in the active environment
-pip3 freeze
-```
+
 ### 3 Share Your Virtual Environment (`requirements.txt`)
 
 ## 📋 Step-by-Step Instructions
@@ -125,9 +114,18 @@ source devnew/bin/activate
 pip3 install -r requirements.txt
 ```
 
+![Virtual Environment](images/03pythonenviroment.png)
+
 **Complete Script:**
 
 ```bash
-
-
+# Export installed package dependencies to a text file
+pip3 freeze > requirements.txt
+# Deactivate the current virtual environment
+deactivate
+# Create and activate a new virtual environment to simulate another project ('devnew')
+python3 -m venv devnew
+source devnew/bin/activate
+# Automatically install dependencies from the shared requirements file
+pip3 install -r requirements.txt
 ```
