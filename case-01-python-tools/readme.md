@@ -44,7 +44,7 @@ which python3
 
 ![BGP WEIGTH](images/01pythoncommands.png)
 
-## 2.1 Create and Use Python Virtual Environments
+2.2 Create and Use Python Virtual Environments
 
 To prevent competing software versions and system-wide dependency conflicts, create an isolated workspace:
 
@@ -77,6 +77,8 @@ pip3 install requests
 ```bash
 pip3 freeze
 ```
+
+![Virtual Environment](images/02pythonenviroment.png)
 
 
 
