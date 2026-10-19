@@ -5,10 +5,10 @@ This repository documents the practical lab **"Explore Python Development Tools"
 ---
 
 ## 🚀 Lab Objectives
-* Review and validate the local Python installation and execution paths within the DEVASC Virtual Machine[cite: 6].
+* Review and validate the local Python installation and execution paths within the DEVASC Virtual Machine.
 * Understand the importance of **Python virtual environments** (`venv`) for isolating project dependencies.
 * Learn how to freeze, export, and share project dependencies using a `requirements.txt` file.
-* Simulate multi-developer workflows by installing required packages from a shared configuration file[cite: 9].
+* Simulate multi-developer workflows by installing required packages from a shared configuration file.
 
 ---
 
