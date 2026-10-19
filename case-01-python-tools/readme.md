@@ -35,7 +35,7 @@ This repository documents the practical lab **"Explore Python Development Tools"
 
 ## 📋 Step-by-Step Instructions
 
-Verify the installed Python version and its directory path in the system:
+**2.1)**Verify the installed Python version and its directory path in the system:
 
 ```bash
 python3 -V
@@ -44,35 +44,35 @@ which python3
 
 ![BGP WEIGTH](images/01pythoncommands.png)
 
-2.2 Create and Use Python Virtual Environments
+**2.2)** Create and Use Python Virtual Environments
 
 To prevent competing software versions and system-wide dependency conflicts, create an isolated workspace:
 
-# Navigate to the target directory
+Navigate to the target directory
 
 ```bash
 cd labs/devnet-src/python/
 ```
 
-# Create a virtual environment named 'devfun'
+**2.3)** Create a virtual environment named 'devfun'
 
 ```bash
 python3 -m venv devfun
 ```
 
-# Activate the virtual environment
+**2.4)** Activate the virtual environment
 
 ```bash
 source devfun/bin/activate
 ```
 
-# Install the requests package inside the isolated environment
+**2.5)** Install the requests package inside the isolated environment
 
 ```bash
 pip3 install requests
 ```
 
-# Verify the packages installed in the active environment
+**2.6)** Verify the packages installed in the active environment
 
 ```bash
 pip3 freeze
