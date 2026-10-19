@@ -5,13 +5,9 @@
 
 ---
 
-## CONTENIDOS:
+## CONTENT:
 
-| Case | Title | Description |
-| :--- | :--- | :--- |
-| **01** | [Claude & n8n AI Agents](./case-01-Google-Auth/) | Agentes Claude . |
-
-[Google](https://www.google.com)
+[Cisco Networking Academy](https://www.netacad.com/es/)
 
 ## 1. Introduction and Theoretical Framework
 
