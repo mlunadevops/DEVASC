@@ -44,6 +44,10 @@ which python3
 
 ![BGP WEIGTH](images/01pythoncommands.png)
 
+## 2.1 Create and Use Python Virtual Environments
+
+To prevent competing software versions and system-wide dependency conflicts, create an isolated workspace:
+
 
 
 
