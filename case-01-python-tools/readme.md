@@ -1,28 +1,3 @@
-
-
----
-
-## 🚀 Lab Objectives
-* Review and validate the local Python installation and execution paths within the DEVASC Virtual Machine.
-* Understand the importance of **Python virtual environments** (`venv`) for isolating project dependencies.
-* Learn how to freeze, export, and share project dependencies using a `requirements.txt` file.
-* Simulate multi-developer workflows by installing required packages from a shared configuration file.
-
----
-
-## 🛠️ Tools & Technologies Used
-* **Python 3.8.2**
-* **Python `venv` module** for virtual environments
-* **PIP (Pip Installs Packages)** for package management
-* **Operating System:** DEVASC Virtual Machine (Linux)
-
----
-
-## 📋 Step-by-Step Instructions
-
-
-
-
 # TECHNICAL LOG & Explore Python Development Tools (Cisco DevNet)
 
 ## Traffic Manipulation via the Weight Attribute
@@ -45,7 +20,23 @@
 
 This repository documents the practical lab **"Explore Python Development Tools"** from the Cisco DevNet Associate (DEVASC) curriculum. The main objective of this practice is to master Python development environment management, package handling with `pip`, and best practices to prevent dependency conflicts in automation projects.
 
+## 🛠️ Tools & Technologies Used
+
+* **Python 3.8.2**
+* **Python `venv` module** for virtual environments
+* **PIP (Pip Installs Packages)** for package management
+* **Operating System:** DEVASC Virtual Machine (Linux).
+
+## 🚀 Lab Objectives
+* Review and validate the local Python installation and execution paths within the DEVASC Virtual Machine.
+* Understand the importance of **Python virtual environments** (`venv`) for isolating project dependencies.
+* Learn how to freeze, export, and share project dependencies using a `requirements.txt` file.
+* Simulate multi-developer workflows by installing required packages from a shared configuration file.
+
+
 ### 2. Review Python Installation
+
+## 📋 Step-by-Step Instructions
 
 Verify the installed Python version and its directory path in the system:
 
@@ -55,8 +46,6 @@ which python3
 ```
 
 ![BGP WEIGTH](images/01pythoncommands.png)
-
- four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
 
 ## 3. BGP Configuration:
 
