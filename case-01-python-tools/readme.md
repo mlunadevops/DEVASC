@@ -33,7 +33,7 @@ This repository documents the practical lab **"Explore Python Development Tools"
 
 ### 2. Review Python Installation
 
-## 📋 Step-by-Step Instructions
+## 📋 Step-by-Step Instructions  
 
 **2.1)** Verify the installed Python version and its directory path in the system:
 
@@ -44,7 +44,7 @@ which python3
 
 ![BGP WEIGTH](images/01pythoncommands.png)
 
-**2.2)** Create and Use Python Virtual Environments
+**2.2)** Create and Use Python Virtual Environments (Creacion de SANDBOX)
 
 To prevent competing software versions and system-wide dependency conflicts, create an isolated workspace:
 
