@@ -1,6 +1,6 @@
 # Lab: Explore Python Development Tools (Cisco DevNet)
 
-This repository documents the practical lab **"Explore Python Development Tools"** from the Cisco DevNet Associate (DEVASC) curriculum[cite: 6]. The main objective of this practice is to master Python development environment management, package handling with `pip`, and best practices to prevent dependency conflicts in automation projects[cite: 6].
+This repository documents the practical lab **"Explore Python Development Tools"** from the Cisco DevNet Associate (DEVASC) curriculum. The main objective of this practice is to master Python development environment management, package handling with `pip`, and best practices to prevent dependency conflicts in automation projects.
 
 ---
 
@@ -13,17 +13,17 @@ This repository documents the practical lab **"Explore Python Development Tools"
 ---
 
 ## 🛠️ Tools & Technologies Used
-* **Python 3.8.2**[cite: 6]
+* **Python 3.8.2**
 * **Python `venv` module** for virtual environments
-* **PIP (Pip Installs Packages)** for package management[cite: 6]
-* **Operating System:** DEVASC Virtual Machine (Linux)[cite: 6]
+* **PIP (Pip Installs Packages)** for package management
+* **Operating System:** DEVASC Virtual Machine (Linux)
 
 ---
 
 ## 📋 Step-by-Step Instructions
 
 ### 1. Review Python Installation
-Verify the installed Python version and its directory path in the system[cite: 6]:
+Verify the installed Python version and its directory path in the system:
 
 ```bash
 python3 -V
