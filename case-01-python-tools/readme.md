@@ -94,30 +94,32 @@ pip3 install requests
 # Verify the packages installed in the active environment
 pip3 freeze
 ```
-# 3 Share Your Virtual Environment (`requirements.txt`)
+### 3 Share Your Virtual Environment (`requirements.txt`)
+
+## 📋 Step-by-Step Instructions
 
 To document and replicate project environments seamlessly:
 
-# Export installed package dependencies to a text file
+**3.1)** Export installed package dependencies to a text file
 
 ```bash
 pip3 freeze > requirements.txt
 ```
 
-# Deactivate the current virtual environment
+**3.2)** Deactivate the current virtual environment
 
 ```bash
 deactivate
 ```
 
-# Create and activate a new virtual environment to simulate another project ('devnew')
+**3.3)** Create and activate a new virtual environment to simulate another project ('devnew')
 
 ```bash
 python3 -m venv devnew
 source devnew/bin/activate
 ```
 
-# Automatically install dependencies from the shared requirements file
+**3.4)** Automatically install dependencies from the shared requirements file
 
 ```bash
 pip3 install -r requirements.txt
