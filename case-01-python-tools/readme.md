@@ -10,7 +10,6 @@
 | Case | Title | Description |
 | :--- | :--- | :--- |
 | **01** | [Claude & n8n AI Agents](./case-01-Google-Auth/) | Agentes Claude . |
-| **02** | [Packet Tracert & VS CODE](./case-02-PT-MCP-VS-Code/) | Conecta Packet Tracert con MCP |
 
 [Google](https://www.google.com)
 
@@ -45,17 +44,6 @@ which python3
 
 ![BGP WEIGTH](images/01pythoncommands.png)
 
-## 3. BGP Configuration:
-
-**Router A (RTA - AS 100):**
-
-```text
-! 
-router bgp 100
-!
-```
-
-### 4. BGP Configuration:
 
 
 
