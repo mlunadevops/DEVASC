@@ -44,7 +44,7 @@ which python3
 
 ![BGP WEIGTH](images/01pythoncommands.png)
 
-**2.2)** Create and Use Python Virtual Environments (Creacion de SANDBOX)
+**2.2)** Create and Use Python Virtual Environments **(Creating a SANDBOX)**
 
 To prevent competing software versions and system-wide dependency conflicts, create an isolated workspace:
 
