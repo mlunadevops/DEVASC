@@ -91,7 +91,7 @@ pip3 install requests
 pip3 freeze
 ```
 
-### 3 Share Your Virtual Environment (`requirements.txt`)
+### 3 Share Your Virtual Environment (`requirements.txt`) **(Exporting a SANDBOX Template)**
 
 ## 📋 Step-by-Step Instructions
 
