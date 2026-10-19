@@ -35,7 +35,7 @@ This repository documents the practical lab **"Explore Python Development Tools"
 
 ## 📋 Step-by-Step Instructions
 
-**2.1)**Verify the installed Python version and its directory path in the system:
+**2.1)** Verify the installed Python version and its directory path in the system:
 
 ```bash
 python3 -V
