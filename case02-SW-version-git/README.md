@@ -74,7 +74,7 @@ cat DEVASC.txt
 git status
 ```
 
-**Note:** When you run **`git status`**, you will see that Git detects the `DEVASC.txt` file in red with the label **Untracked files**.
+**Note:** When you run **`git status`**, you will see that Git detects the `DEVASC.txt` file in red with the label **Untracked files**. As shown in the image below.
 
 ![Github commit](images/01Github.png)
 
