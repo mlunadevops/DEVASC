@@ -24,16 +24,17 @@ The topology consists
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
-### 3. BGP Configuration:
+### 3. Github:
 
 **Step 1:** Initialize Git and Configure Your User
 
-In the terminal, run the following commands to configure your local identity (replace SampleUser and sample@example.com with your details or your GitHub username from now on):
+In the terminal, run the following commands to configure your local identity (replace UsernameGitHub and mailGithub@example.com with your details or your GitHub username from now on):
 
-**Router A (RTA - AS 100):**
+**Linux SHELL (DEVASC):**
 
 ```text
 ! 
-router bgp 100
+git config --global user.name "UsernameGitHub"
+git config --global user.email "mailGithub@example.com"
 !
 ```
