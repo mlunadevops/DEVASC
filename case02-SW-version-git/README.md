@@ -26,7 +26,9 @@ The topology consists
 
 ### 3. Github:
 
-**Step 1:** Initialize Git and Configure Your User
+### Part 1:
+
+**Step 1.1:** Initialize Git and Configure Your User
 
 In the terminal, run the following commands to configure your local identity (replace UsernameGitHub and mailgithub@example.com with your details or your GitHub username from now on):
 
@@ -60,7 +62,7 @@ git init
 ls -a
 ```
 
-**Step 2:** Create a file.
+**Step 1.2:** Create a file.
 
 a. Use the `echo` command to create the file with the lab text:
 
@@ -79,7 +81,7 @@ git status
 ![Github commit](images/01Github.png)
 
 
-**Step 3:** Staging the File
+**Step 1.3:** Staging the File
 
 Add the file to the staging area to instruct Git to include it in the next commit:
 
@@ -87,7 +89,7 @@ Add the file to the staging area to instruct Git to include it in the next commi
 git add DEVASC.txt
 ```
 
-**Step 4:** Committing a File
+**Step 1.4:** Committing a File
 
 Save an official snapshot of your file in the repository with a descriptive message:
 
@@ -95,9 +97,19 @@ Save an official snapshot of your file in the repository with a descriptive mess
 git commit -m "Committing DEVASC.txt to begin tracking changes"
 ```
 
-**Step 5:** Viewing the Commit History
+**Step 1.5:** Viewing the Commit History
 
 Verify that your commit was saved correctly by viewing the historical log:
+
+```text
+git log
+```
+
+### Part 2: Modifying the File and Tracking the Changes
+
+**Step 2.1:**: Modify the file
+
+Add a new line to the `DEVASC.txt` file using `>>` (remember that the double `>>` is vital to append text at the bottom and not overwrite what you already wrote):
 
 ```text
 git log
