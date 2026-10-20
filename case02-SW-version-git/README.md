@@ -94,3 +94,11 @@ Save an official snapshot of your file in the repository with a descriptive mess
 ```text
 git commit -m "Committing DEVASC.txt to begin tracking changes"
 ```
+
+**Step 5:** Viewing the Commit History
+
+Verify that your commit was saved correctly by viewing the historical log:
+
+```text
+git log
+```
