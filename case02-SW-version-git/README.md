@@ -57,8 +57,6 @@ cd git-intro
 Initialize the Git repository and verify the creation of the hidden folder.
 
 ```text
-! 
-git config --list
+git init
 ls -a
-!
 ```
