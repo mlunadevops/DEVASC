@@ -28,7 +28,7 @@ The topology consists
 
 **Step 1:** Initialize Git and Configure Your User
 
-In the terminal, run the following commands to configure your local identity (replace UsernameGitHub and mailGithub@example.com with your details or your GitHub username from now on):
+In the terminal, run the following commands to configure your local identity (replace UsernameGitHub and mailgithub@example.com with your details or your GitHub username from now on):
 
 **Linux SHELL (DEVASC):**
 
