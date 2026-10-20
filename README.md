@@ -5,7 +5,7 @@
 
 | Case | Title | Description |
 | :--- | :--- | :--- |
-| **01** | [Python Development Tools](./case-01-python-tools/) |  |
-| **02** | [BGP to EIGRP Redistribution](./BGP-to-EIGRP-Redistribution/) | BGP Routes into EIGRP. |
+| **01** | [Python Development Tools](./case-01-python-tools/) | Python Tools  |
+| **02** | [Software Version Control with Git](./case02-SW-version-git/) | Software Version Control with Git |
 
 | ... | ... | ... |
