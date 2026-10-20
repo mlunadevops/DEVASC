@@ -38,3 +38,26 @@ git config --global user.name "UsernameGitHub"
 git config --global user.email "mailGithub@example.com"
 !
 ```
+
+
+```text
+! 
+git config --list
+!
+```
+
+
+```text
+! 
+cd labs/devnet-src/
+mkdir git-intro
+cd git-intro
+!
+```
+Initialize the Git repository and verify the creation of the hidden folder.
+
+```text
+! 
+git config --list
+!
+```
