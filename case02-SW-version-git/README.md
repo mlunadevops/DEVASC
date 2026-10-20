@@ -46,7 +46,6 @@ git config --list
 !
 ```
 
-
 ```text
 ! 
 cd labs/devnet-src/
@@ -60,3 +59,21 @@ Initialize the Git repository and verify the creation of the hidden folder.
 git init
 ls -a
 ```
+
+**Step 2:** Create a file.
+
+a. Use the `echo` command to create the file with the lab text:
+
+```text
+echo "I am on my way to passing the Cisco DEVASC exam" > DEVASC.txt
+```
+
+```text
+ls -la
+cat DEVASC.txt
+git status
+```
+
+![](images/01Topologia.jpg)
+
+
