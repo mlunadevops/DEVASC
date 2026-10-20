@@ -79,3 +79,18 @@ git status
 ![Github commit](images/01Github.png)
 
 
+**Step 3:** Staging the File
+
+Add the file to the staging area to instruct Git to include it in the next commit:
+
+```text
+git add DEVASC.txt
+```
+
+**Step 4:** Committing a File
+
+Save an official snapshot of your file in the repository with a descriptive message:
+
+```text
+git commit -m "Committing DEVASC.txt to begin tracking changes"
+```
