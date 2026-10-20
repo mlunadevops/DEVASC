@@ -24,8 +24,11 @@ The topology consists
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
+### 3. BGP Configuration:
 
-## 3. BGP Configuration:
+**Step 1:** Initialize Git and Configure Your User
+
+In the terminal, run the following commands to configure your local identity (replace SampleUser and sample@example.com with your details or your GitHub username from now on):
 
 **Router A (RTA - AS 100):**
 
@@ -34,9 +37,3 @@ The topology consists
 router bgp 100
 !
 ```
-
-### 4. BGP Configuration:
-
-**Step 1:** Initialize Git and Configure Your User
-
-In the terminal, run the following commands to configure your local identity (replace SampleUser and sample@example.com with your details or your GitHub username from now on):
