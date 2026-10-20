@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 | **01** | [Claude & n8n AI Agents](./case-01-Google-Auth/) | Agentes Claude . |
 
-[Google](https://www.netacad.com/es/)
+[Cisco Networking Academy](https://www.netacad.com/es/)
 
 ## 1. Introduction and Theoretical Framework
 
@@ -23,7 +23,6 @@
 The topology consists 
 
 ![BGP WEIGTH](images/01Topologia.jpg)
-
 
 
 ## 3. BGP Configuration:
