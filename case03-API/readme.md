@@ -27,7 +27,7 @@
 
 **How does a Webhook work?**
 
-1. URL (Endpoint) Definition: The client application provides a web address (URL) to the server.
+1. **URL (Endpoint) Definition:** The client application provides a web address (URL) to the server.
 2. Event Trigger: An action occurs on the server (for example: a customer makes a payment).
 3. Message Delivery: The server automatically sends an HTTP request (usually via a POST request) with the event details to the registered URL.
 4. Reception and Action: Your application receives the notification and immediately performs the corresponding action (for example: sends the invoice by email).
