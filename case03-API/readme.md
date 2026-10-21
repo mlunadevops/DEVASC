@@ -106,24 +106,64 @@ Essentially, OAuth 2.0 enables pre-registered applications to get authorization 
 This process of obtaining the token is called a flow. The application then uses this token in the REST API as a Bearer Authentication. The web service for the REST API then checks the Authorization server to make sure that the token is valid, and that the requester is authorized to perform the request.
 
    
-## 2. Topology and BGP Neighbor Establishment
+## Exploring REST APIs with API Simulator and Postman
 
+This repository documents the lab exercise for exploring, consuming, and automating requests to a REST API using a Cisco DEVASC virtual machine, interactive documentation tools (OpenAPI/Swagger), **Postman**, and a **Python** automation script.
 
+---
 
+## 📋 Lab Objectives
+1. **Launch and configure** the DEVASC Virtual Machine environment.
+2. **Explore the API documentation** using the school library simulator and OpenAPI specifications.
+3. **Perform HTTP calls** (GET, POST, DELETE) using Postman and cURL.
+4. **Automate data insertion** (100 random books) using a Python script with the `faker` library.
 
+---
 
+## 🛠️ Technologies and Tools Used
+- **Environment:** DEVASC Virtual Machine (VirtualBox / VMware).
+- **API Simulator:** School Library API (`http://library.demo.local`).
+- **API Client:** Postman.
+- **Programming Language:** Python 3 (with `requests` and `faker` libraries).
 
+---
 
-## 3. BGP Configuration:
+## 🚀 Lab Development
 
-**Router A (RTA - AS 100):**
+### Part 1: Launching the Virtual Machine
+- The DEVASC VM environment was booted up, which includes the school library API simulator and its local database.
 
-```text
-! 
-router bgp 100
-!
-```
+### Part 2: Exploring the Documentation (API Simulator)
+1. **Website Access:** Using the Chromium browser, navigated to `http://library.demo.local` to view the book catalog.
+2. **OpenAPI Documentation:** Accessed the API documentation section (`/api/v1`) to study the available namespaces and endpoints.
+3. **Testing with `GET /books`:** Using the *Try it out* feature, executed a request to list existing books in JSON format and tested the `includeISBN=true` parameter.
+4. **Basic Authentication (`POST /loginViaBasic`):** 
+   * Sent default credentials (`cisco` / `Cisco123!`) to retrieve an access token.
+   * Authorized the session in the interface using the token under the `X-API-KEY` header.
+5. **CRUD Operations:**
+   * Added books via `POST /books`.
+   * Queried specific books using `GET /books/{id}`.
+   * Deleted records using `DELETE /books/{id}`.
 
-### 4. BGP Configuration:
+### Part 3: Using Postman to Consume the API
+Replicated the previous requests using Postman to become familiar with managing collections and requests outside the browser:
+1. **GET Request:** Configured a GET request to `http://library.demo.local/api/v1/books` to verify the `200 OK` status and the JSON response.
+2. **POST with Basic Auth:** Configured the *Authorization* tab in Postman by selecting *Basic Auth* to authenticate and retrieve the token.
+3. **POST with API Key:** Configured API Key authentication (`X-API-KEY`) and sent a raw JSON payload to add the book *IPv6 Fundamentals*.
+4. **Query Parameters:** Integrated parameters like `includeISBN=true` and `sortBy=author` to sort and filter responses directly from Postman.
+
+### Part 4: Automation with Python (`add100RandomBooks.py`)
+To avoid manual data entry, analyzed and executed a Python script that bulk-generates mock data:
+1. **Main Libraries:**
+   * `requests`: To make HTTP requests (GET, POST) from the script.
+   * `json`: For handling structured payloads.
+   * `faker`: For dynamically generating fake titles, authors, and ISBNs.
+2. **Script Functions:**
+   * `getAuthToken()`: Automatically authenticates against the `/api/v1/loginViaBasic` endpoint using credentials and returns the session token.
+   * `addBook()`: Sends POST requests to the `/api/v1/books` endpoint, attaching the token in the header (`X-API-Key`) and the generated book in JSON format.
+3. **Execution:**
+   Ran the script from the virtual machine terminal:
+   ```bash
+   python3 add100RandomBooks.py
 
 
