@@ -17,6 +17,8 @@
 
 **API:** It is a "bridge" or interface that allows two software systems to communicate with each other, facilitating the use of another application's features without needing to know its internal code.
 
+**Synchronous API:** It is one in which the client (the application making the request) sends a request and waits for the server to process the information and return the response in real time. During that time, the connection remains open and the process typically blocks until the result is received.
+
 
 ## 2. Topology and BGP Neighbor Establishment
 
