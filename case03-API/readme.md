@@ -85,8 +85,8 @@ A REST API request can provide an API key in a few different ways:
 
 - **Query string:** Only recommended for public API keys
 - **Header:** Authorization key or a custom key (**`Authorization: <API Key>`** or **`Authorization: APIkey <API Key>` or `APIkey: <API Key>`**)
-- **Body data:** Uses a unique key as the identifier (`Content-Type: application/json`)
-- **Cookie:** Uses a unique key as the identifier (`Cookie: API_KEY=<API Key>`)
+- **Body data:** Uses a unique key as the identifier **(`Content-Type: application/json`)**
+- **Cookie:** Uses a unique key as the identifier **(`Cookie: API_KEY=<API Key>`)**
    
 ## 2. Topology and BGP Neighbor Establishment
 
