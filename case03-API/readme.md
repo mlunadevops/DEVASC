@@ -23,6 +23,8 @@
 
 ![BGP WEIGTH](images/00APItypes.jpg)
 
+**Webhook:** is an automated communication mechanism between applications. In simple terms, **it is an event-based real-time notification.** It allows one application to automatically send data to another application only when a specific event occurs, instead of the second application having to constantly ask if there are updates.
+
 ## 2. Topology and BGP Neighbor Establishment
 
 
