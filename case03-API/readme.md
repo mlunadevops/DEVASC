@@ -21,7 +21,7 @@
 
 **Asynchronous API:** It is one in which the client sends a request and the server only confirms that it has received it (for example, by returning an acceptance code), without waiting for the task to finish. The server processes the operation in the background and, when completed, notifies the client through a notification (such as a webhook), a message, or by allowing the client to check the status later (polling).
 
-![BGP WEIGTH](images/00APItypes.jpg)
+![API types](images/00APItypes.jpg)
 
 **Webhook:** is an automated communication mechanism between applications. In simple terms, **it is an event-based real-time notification.** It allows one application to automatically send data to another application only when a specific event occurs, instead of the second application having to constantly ask if there are updates.
 
@@ -31,6 +31,8 @@
 2. Event Trigger: An action occurs on the server (for example: a customer makes a payment).
 3. Message Delivery: The server automatically sends an HTTP request (usually via a POST request) with the event details to the registered URL.
 4. Reception and Action: Your application receives the notification and immediately performs the corresponding action (for example: sends the invoice by email).
+
+![Webhooks](images/01APIWebhooks.jpg)
 
    
 ## 2. Topology and BGP Neighbor Establishment
