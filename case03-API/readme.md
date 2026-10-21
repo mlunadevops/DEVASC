@@ -38,9 +38,17 @@
 
 Although an application can create a freeform or unstructured interface to interact with third parties, the best practice is to follow specific standards, protocols, and architectural styles. This makes it much easier for developers to understand and use the API, as the concepts will be familiar to them.
 The three most popular API architectural styles are:
-1. **RPC (Remote Procedure Call)**
-2. **SOAP (Simple Object Access Protocol)**
-3. **REST (Representational State Transfer)**
+1. **RPC (Remote Procedure Call):** Is a request-response model that lets an application (acting as a client) make a procedure call to another application (acting as a server). The "server" application is typically located on another system within the network.
+
+RPC is an API style that can be applied to different transport protocols. Example implementations include:
+- XML-RPC
+- JSON-RPC
+- NFS (Network File System)
+- Simple Object Access Protocol (SOAP)
+
+2. **SOAP (Simple Object Access Protocol):** SOAP is a messaging protocol. It is used for communicating between applications that may be on different platforms or built with different programming languages. It is an XML-based protocol that was developed by Microsoft. SOAP is commonly used with HyperText Transfer Protocol (HTTP) transport, but can be applied to other protocols. SOAP is independent, extensible, and neutral.
+   
+4. **REST (Representational State Transfer):** REST as a hybrid style, derived from several network-based architectural styles he described elsewhere in the paper, "combined with additional constraints that define a uniform connector interface."
 
    
 ## 2. Topology and BGP Neighbor Establishment
