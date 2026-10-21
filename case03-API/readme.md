@@ -89,6 +89,22 @@ A REST API request can provide an API key in a few different ways:
 - **Header:** Authorization key or a custom key (**`Authorization: <API Key>`** or **`Authorization: APIkey <API Key>` or `APIkey: <API Key>`**)
 - **Body data:** Uses a unique key as the identifier **(`Content-Type: application/json`)**
 - **Cookie:** Uses a unique key as the identifier **(`Cookie: API_KEY=<API Key>`)**
+
+**Authorization Mechanisms**
+
+Open Authorization, also known as **OAuth, combines authentication with authorization**. OAuth was developed as a solution to insecure authentication mechanisms. With increased security compared to the other options, it is usually the recommended form of authentication/authorization for REST APIs.
+
+There are two versions of OAuth:
+
+1) OAuth 1.0
+2) OAuth 2.0. **Most of today's REST APIs implement OAuth 2.0. Note that OAuth 2.0 is not backwards compatible.**
+
+Defined in the OAuth 2.0 Authorization Framework, “OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf.”
+
+Essentially, OAuth 2.0 enables pre-registered applications to get authorization to perform REST API requests on a user's behalf without the user needing to share their credentials with the application itself. OAuth lets the user provide credentials directly to the authorization server, typically an Identity Provider (IdP) or an Identity Service (IdS), to obtain an access token that can be shared with the application.
+
+This process of obtaining the token is called a flow. The application then uses this token in the REST API as a Bearer Authentication. The web service for the REST API then checks the Authorization server to make sure that the token is valid, and that the requester is authorized to perform the request.
+
    
 ## 2. Topology and BGP Neighbor Establishment
 
