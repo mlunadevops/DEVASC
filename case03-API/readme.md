@@ -77,10 +77,9 @@ API keys are intended to be an authentication mechanism, but are commonly misuse
 
 **The two types of API keys are:**
 
-**Public:**
-**Private:**
+**Public:** It can be shared and provides access to a subset of the data.
+**Private:** It is secret (like a username and password); if compromised, it grants indefinite access to the system, as most do not expire or regenerate.
 
-A public API key can be shared and enables that user to access a subset of data and APIs. Do not share a private key, because it is similar to your username and password. Most API keys do not expire, and unless the key can be revoked or regenerated, if it is distributed or compromised, anyone with that key can indefinitely access the system as you.
 
 A REST API request can provide an API key in a few different ways:
 - **Query string:** Only recommended for public API keys
