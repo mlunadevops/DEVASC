@@ -105,4 +105,15 @@ Essentially, OAuth 2.0 enables pre-registered applications to get authorization 
 
 This process of obtaining the token is called a flow. The application then uses this token in the REST API as a Bearer Authentication. The web service for the REST API then checks the Authorization server to make sure that the token is valid, and that the requester is authorized to perform the request.
 
+# Interpreting Status Codes
+
+Because REST APIs are HTTP-based, they also use HTTP status codes to notify API clients of request results.
+
+Unless otherwise stated, the status code is part of the HTTP/1.1 standard (RFC 7231), which means the first digit of the status code defines the class of response. (The last two digits do not have any class or categorization role, but help distinguish between results.) There are 5 of these categories:
+- **1xx: Informational:** Request received, continuing to process.
+- **2xx: Success:** The action was successfully received, understood, and accepted.
+- **3xx: Redirection:** Further action must be taken in order to complete the request.
+- **4xx: Client Error:** The request contains bad syntax or cannot be fulfilled.
+- **5xx: Server Error:** The server failed to fulfill an apparently valid request.
+
 
