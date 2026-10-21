@@ -75,6 +75,8 @@ Just as with the other types of authentication, **API keys are only secure when 
 
 API keys are intended to be an authentication mechanism, but are commonly misused as an authorization mechanism.
 
+![Authentication](images/02Authentication.jpg)
+
 **The two types of API keys are:**
 
 - **Public:** It can be shared and provides access to a subset of the data.
