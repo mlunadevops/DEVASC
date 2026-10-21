@@ -21,12 +21,13 @@
 
 **Asynchronous API:** It is one in which the client sends a request and the server only confirms that it has received it (for example, by returning an acceptance code), without waiting for the task to finish. The server processes the operation in the background and, when completed, notifies the client through a notification (such as a webhook), a message, or by allowing the client to check the status later (polling).
 
+![BGP WEIGTH](images/00APItypes.jpg)
 
 ## 2. Topology and BGP Neighbor Establishment
 
 The topology consists of four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
 
-![BGP WEIGTH](images/00APItypes.jpg)
+
 
  four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
 
