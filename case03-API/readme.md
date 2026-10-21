@@ -34,6 +34,14 @@
 
 ![Webhooks](images/01APIWebhooks.jpg)
 
+**Common API Architectural Styles**
+
+Although an application can create a freeform or unstructured interface to interact with third parties, the best practice is to follow specific standards, protocols, and architectural styles. This makes it much easier for developers to understand and use the API, as the concepts will be familiar to them.
+The three most popular API architectural styles are:
+1. **RPC (Remote Procedure Call)**
+2. **SOAP (Simple Object Access Protocol)**
+3. **REST (Representational State Transfer)**
+
    
 ## 2. Topology and BGP Neighbor Establishment
 
