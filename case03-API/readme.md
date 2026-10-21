@@ -82,6 +82,7 @@ API keys are intended to be an authentication mechanism, but are commonly misuse
 
 
 A REST API request can provide an API key in a few different ways:
+
 - **Query string:** Only recommended for public API keys
 - **Header:** Uses the Authorization key or a custom key (`Authorization: <API Key>` or `Authorization: APIkey <API Key>` or `APIkey: <API Key>`)
 - **Body data:** Uses a unique key as the identifier (`Content-Type: application/json`)
