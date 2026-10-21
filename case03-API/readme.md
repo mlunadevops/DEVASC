@@ -112,7 +112,7 @@ This repository documents the lab exercise for exploring, consuming, and automat
 
 ---
 
-## 📋 Lab Objectives
+## 📋 Objectives
 1. **Launch and configure** the DEVASC Virtual Machine environment.
 2. **Explore the API documentation** using the school library simulator and OpenAPI specifications.
 3. **Perform HTTP calls** (GET, POST, DELETE) using Postman and cURL.
