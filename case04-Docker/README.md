@@ -34,8 +34,10 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
    
    ```bash
    cd labs/devnet-src/sample-app/
+   ```
+```bash
    touch user-input.sh
-    ```
+```
 
 
 
