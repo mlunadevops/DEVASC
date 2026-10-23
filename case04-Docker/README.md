@@ -22,9 +22,21 @@ The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gatewa
 * **Default Values:** Routes originated locally by the router receive a weight of 32,768 by default; routes learned from external or internal neighbors receive a weight of 0 by default.
 * **Precedence:** It is evaluated in the absolute first place within BGP's decision algorithm (above Local Preference, AS_PATH, MED, etc.). Routes with a higher Weight value have absolute preference.
 
-## 2. Topology and BGP Neighbor Establishment
+## 2. Build a Sample Web App in a Docker Container
+ 
 
-The topology consists of four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
+## Part 1: Launch the DEVASC VM
+* Launch the DEVASC Virtual Machine using VirtualBox or VMWare.
+
+## Part 2: Create a Simple Bash Script
+Bash scripting is a prerequisite for automation, CI/CD, and managing development environments[cite: 1]. 
+
+1. **Create and navigate to the working directory**:
+   ```bash
+   cd labs/devnet-src/sample-app/
+   touch user-input.sh
+
+
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
