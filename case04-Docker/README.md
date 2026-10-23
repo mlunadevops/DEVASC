@@ -24,18 +24,18 @@ The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gatewa
 
 ## 2. Build a Sample Web App in a Docker Container
  
-
 **Part 2.1:** Launch the DEVASC VM
 
 * Launch the DEVASC Virtual Machine using VirtualBox or VMWare.
 
-## Part 2: Create a Simple Bash Script
-Bash scripting is a prerequisite for automation, CI/CD, and managing development environments[cite: 1]. 
+Bash scripting is a prerequisite for automation, CI/CD, and managing development environments. 
 
 1. **Create and navigate to the working directory**:
+   
    ```bash
    cd labs/devnet-src/sample-app/
    touch user-input.sh
+    ```
 
 
 
