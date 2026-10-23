@@ -32,9 +32,9 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
 
 1. **Create and navigate to the working directory**:
    
-   ```bash
+```bash
    cd labs/devnet-src/sample-app/
-   ```
+```
 ```bash
    touch user-input.sh
 ```
