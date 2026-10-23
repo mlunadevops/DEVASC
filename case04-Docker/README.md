@@ -25,7 +25,8 @@ The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gatewa
 ## 2. Build a Sample Web App in a Docker Container
  
 
-## Part 1: Launch the DEVASC VM
+**Part 2.1:** Launch the DEVASC VM
+
 * Launch the DEVASC Virtual Machine using VirtualBox or VMWare.
 
 ## Part 2: Create a Simple Bash Script
