@@ -273,6 +273,10 @@ docker rm -f <nombre_o_id_del_contenedor>
 
 The way Docker packages an application is through an **image**. Make sure you have your **`Dockerfile`** in your project directory and build the image by running the following command in your terminal (the dot `.` specifies the current directory):
 
+![Docker Portable](images/08Dockerportable.png)
+
+
+
 ```bash
 docker build -t migueluna .
 ```
