@@ -99,3 +99,11 @@ python3 sample-app.sh
 
 ![Program Execution WEB](images/02Executionweb.png)
 
+3.3 **Open another terminal and use curl:**
+
+```bash
+curl http://0.0.0.0:8080
+```
+
+![Program Execution CURL](images/03Executionweb.png)
+
