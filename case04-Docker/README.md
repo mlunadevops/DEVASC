@@ -126,6 +126,7 @@ Previous folders with `index.html` and `style.css` already exist. You can check 
 Edit your `sample_app.py` file to import `render_template` and render the HTML template.
 
 ```bash
+cat << 'EOF' > sample_app.py
 from flask import Flask
 from flask import request
 from flask import render_template
@@ -138,6 +139,7 @@ def main():
 
 if __name__ == "__main__":
     sample.run(host="0.0.0.0", port=8080)
+EOF
 ```
 
 ```bash
