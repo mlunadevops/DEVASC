@@ -73,5 +73,12 @@ Follow these steps in your terminal inside the DEVASC VM:
 sudo apt update && sudo apt install -y python3-pip
 pip3 install flask
 ```
-3.2 
+
+3.2 **Create / open the `sample_app.py` file:**
+
+```bash
+nano sample_app.py
+```
+
+
 
