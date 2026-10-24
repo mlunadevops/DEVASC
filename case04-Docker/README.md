@@ -178,3 +178,15 @@ The following files are used to build the Homepage packed in docker:
 - **`templates/`:** Contains the HTML files (the frontend layout/homepage structure) that Flask renders.
 - **`static/`:** Contains supporting assets like CSS stylesheets, JavaScript, or images used by the homepage.
 - **`sample-app.sh`:** The automation script you'll look at next in the lab, which programmatically writes a Dockerfile, gathers these files, and builds the Docker image.
+
+```bash
+#!/bin/bash
+mkdir tempdir
+mkdir tempdir/templates
+mkdir tempdir/static
+
+cp sample_app.py tempdir/.
+cp -r templates/* tempdir/templates/.
+cp -r static/* tempdir/static/.
+```
+
