@@ -209,7 +209,7 @@ echo "EXPOSE 8080" >> tempdir/Dockerfile
 echo "CMD python3 /home/myapp/sample_app.py" >> tempdir/Dockerfile
 ```
 
-4.6 **Add the commands to build and run the Docker container: Finally, add the lines to build the image and run the container in the background.**
+4.6 **Add the commands to build and RUN the Docker container:**
 
 Add the commands to build and run the Docker container:
 Finally, add the lines to build the image and run the container in the background.
