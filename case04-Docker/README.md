@@ -36,6 +36,28 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
    touch user-input.sh
 ```
 
+2.**Open the file in nano and add the shebang and script logic:**
+
+```bash
+   nano user-input.sh
+```
+
+3. **Add the initial content (the shebang line and the commands to prompt for the name):**
+
+```bash
+   #!/bin/bash
+   echo -n "Enter Your Name: "
+   read userName
+   echo "Your name is $userName."
+```
+4. **Grant execution permissions and rename the file:**
+
+```bash
+   chmod a+x user-input.sh
+   mv user-input.sh user-input
+```
+
+5. 
 
 
 ![BGP WEIGTH](images/01Topologia.jpg)
