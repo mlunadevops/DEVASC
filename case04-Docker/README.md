@@ -157,6 +157,7 @@ curl http://0.0.0.0:8080
 4.3 **Update the `sample_app.py` code:**
 
 Add the commands to create temporary directories and copy files:
+
 Write the following content to the file:
 
 ```bash
