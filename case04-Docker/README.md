@@ -191,6 +191,14 @@ cp -r static/* tempdir/static/.
 ```
 4.5 **Create the Dockerfile:**
 
+- **`echo "FROM python" > tempdir/Dockerfile`:** Creates the new Dockerfile (using `>`) and defines the base Python image that the container will use.
+- **`echo "RUN pip install flask" >> tempdir/Dockerfile`:** Appends (using `>>`) the command to install the Flask framework inside the image.
+- **`echo "COPY ./static /home/myapp/static/" >> tempdir/Dockerfile`:** Copies the local `static` folder into the `/home/myapp/static/` directory of the container.
+- **`echo "COPY ./templates /home/myapp/templates/" >> tempdir/Dockerfile`:** Copies the HTML templates into the container.
+- **`echo "COPY sample_app.py /home/myapp/" >> tempdir/Dockerfile`:** Copies your main Python script to the container's working directory.
+- **`echo "EXPOSE 8080" >> tempdir/Dockerfile`:** Indicates that the container will expose port 8080 to receive web traffic.
+- **`echo "CMD python3 /home/myapp/sample_app.py" >> tempdir/Dockerfile`:** Defines the default command that will run automatically when the container starts up.
+
 ```bash
 echo "FROM python" > tempdir/Dockerfile
 echo "RUN pip install flask" >> tempdir/Dockerfile
