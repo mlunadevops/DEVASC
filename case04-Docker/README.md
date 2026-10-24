@@ -247,3 +247,5 @@ docker rm <nombre_o_id_del_contenedor>
 ```bash
 docker rm -f <nombre_o_id_del_contenedor>
 ```
+![Docker Execution commands](images/07Dockercommands.png)
+
