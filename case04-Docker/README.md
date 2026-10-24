@@ -208,3 +208,15 @@ echo "COPY sample_app.py /home/myapp/" >> tempdir/Dockerfile
 echo "EXPOSE 8080" >> tempdir/Dockerfile
 echo "CMD python3 /home/myapp/sample_app.py" >> tempdir/Dockerfile
 ```
+
+4.6 **Add the commands to build and run the Docker container: Finally, add the lines to build the image and run the container in the background.**
+
+Add the commands to build and run the Docker container:
+Finally, add the lines to build the image and run the container in the background.
+
+```bash
+cd tempdir
+docker build -t sampleapp .
+docker run -t -d -p 8080:8080 --name samplerunning sampleapp
+docker ps -a
+```
