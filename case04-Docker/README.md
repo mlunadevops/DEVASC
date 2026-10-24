@@ -267,3 +267,12 @@ docker rm -f <nombre_o_id_del_contenedor>
 ```
 ![Docker Execution commands](images/07Dockercommands.png)
 
+6 **Package a Docker container and make it portable:**
+
+6.1 **Stop the container (if it is running):**
+
+The way Docker packages an application is through an **image**. Make sure you have your **`Dockerfile`** in your project directory and build the image by running the following command in your terminal (the dot `.` specifies the current directory):
+
+```bash
+docker build -t migueluna .
+```
