@@ -302,3 +302,5 @@ With the image already loaded on the new machine, you can instantiate it and run
 ```bash
 docker run -d -p 8080:8080 --name contenedor-portatil migueluna
 ```
+
+![Docker Portable](images/10Dockerportable.png)
