@@ -289,3 +289,16 @@ To make it truly portable without relying on an online registry (like Docker Hub
 docker save -o mi-aplicacion.tar migueluna
 ```
 
+6.4  **Import and Load the Image on the New Machine (`docker load`)**
+Once you transfer the `.tar` file to the target server or computer where you want to run it, you just need to import it into that machine's Docker daemon using:
+
+```bash
+docker load -i migueluna
+```
+
+6.5  **Run the Container (`docker run`)**
+With the image already loaded on the new machine, you can instantiate it and run it at any time using the usual run command:
+
+```bash
+docker run -d -p 8080:8080 --name contenedor-portatil migueluna
+```
