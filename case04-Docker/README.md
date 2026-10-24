@@ -230,6 +230,8 @@ echo "CMD python3 /home/myapp/sample_app.py" >> tempdir/Dockerfile
 Add the commands to build and run the Docker container:
 Finally, add the lines to build the image and run the container in the background.
 
+The application name will be **sampleapp** as shown in the script below:
+
 ```bash
 cd tempdir
 docker build -t sampleapp .
