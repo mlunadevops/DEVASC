@@ -121,5 +121,6 @@ Previous folders with `index.html` and `style.css` already exist. You can check 
    cat static/style.css
 ```
 
+4.2 **Update the `sample_app.py` code:**
 
-
+Edit your `sample_app.py` file to import `render_template` and render the HTML template.
