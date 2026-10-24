@@ -27,7 +27,7 @@ The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gatewa
 
 Bash scripting is a prerequisite for automation, CI/CD, and managing development environments. 
 
-1. **Create and navigate to the working directory**:
+2.1 **Create and navigate to the working directory**:
    
 ```bash
    cd labs/devnet-src/sample-app/
@@ -36,13 +36,13 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
    touch user-input.sh
 ```
 
-2.**Open the file in nano and add the shebang and script logic:**
+2.2 **Open the file in nano and add the shebang and script logic:**
 
 ```bash
    nano user-input.sh
 ```
 
-3. **Add the initial content (the shebang line and the commands to prompt for the name):**
+2.3 **Add the initial content (the shebang line and the commands to prompt for the name):**
 
 ```bash
    #!/bin/bash
@@ -50,7 +50,7 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
    read userName
    echo "Your name is $userName."
 ```
-4. **Grant execution permissions and rename the file:**
+2.4 **Grant execution permissions and rename the file:**
 
 ```bash
    chmod a+x user-input.sh
@@ -61,26 +61,17 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
 
 ![Program Excution](images/01Docker.png)
 
-5. **Moving on to Part 3: Create a Sample Web App**
+3. **Moving on to Part 3: Create a Sample Web App**
 
 In this part, we will create a simple Python web application using the **Flask** framework, which will display the IP address of the client making the request.
 
 Follow these steps in your terminal inside the DEVASC VM:
 
-1. **Install Flask and open the port in the firewall (if necessary):**
+3.1 **Install Flask and open the port in the firewall (if necessary):**
    
 ```bash
 sudo apt update && sudo apt install -y python3-pip
 pip3 install flask
 ```
-## 3. BGP Configuration:
-
-**Router A (RTA - AS 100):**
-
-```text
-! 
-router bgp 100
-!
-```
-
+3.2 
 
