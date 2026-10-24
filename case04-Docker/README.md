@@ -280,3 +280,5 @@ Build the image using the following command:
 ```bash
 docker build -t migueluna .
 ```
+![Docker Portable](images/09Dockerportable.png)
+
