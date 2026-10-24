@@ -154,4 +154,18 @@ curl http://0.0.0.0:8080
 
 ![Program Execution CURL](images/05Executionweb.png)
 
+4.3 **Update the `sample_app.py` code:**
 
+Add the commands to create temporary directories and copy files:
+Write the following content to the file:
+
+```bash
+#!/bin/bash
+mkdir tempdir
+mkdir tempdir/templates
+mkdir tempdir/static
+
+cp sample_app.py tempdir/.
+cp -r templates/* tempdir/templates/.
+cp -r static/* tempdir/static/.
+```
