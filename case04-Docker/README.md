@@ -61,8 +61,17 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
 
 ![Program Excution](images/01Docker.png)
 
- four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
+5. **Moving on to Part 3: Create a Sample Web App**
 
+In this part, we will create a simple Python web application using the **Flask** framework, which will display the IP address of the client making the request.
+
+Follow these steps in your terminal inside the DEVASC VM:
+
+1. **Install Flask and open the port in the firewall (if necessary):**
+   
+```bash
+   pip3 install flask
+```
 ## 3. BGP Configuration:
 
 **Router A (RTA - AS 100):**
@@ -73,5 +82,4 @@ router bgp 100
 !
 ```
 
-### 4. BGP Configuration:
 
