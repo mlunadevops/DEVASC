@@ -145,3 +145,5 @@ EOF
 ```bash
 python3 sample_app.py
 ```
+
+![Program Execution CURL](images/04Executionweb.png)
