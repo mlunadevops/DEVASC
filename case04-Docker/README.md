@@ -275,10 +275,17 @@ The way Docker packages an application is through an **image**. Make sure you ha
 
 ![Docker Portable](images/08Dockerportable.png)
 
-Build the image using the following command:
+6.2 **Build the image using the following command:**
 
 ```bash
 docker build -t migueluna .
 ```
 ![Docker Portable](images/09Dockerportable.png)
+
+6.3 **Save and Export the Image to a File (`docker save`)**
+To make it truly portable without relying on an online registry (like Docker Hub), you can package and export the built image directly into a tar archive file:
+
+```bash
+docker save -o mi-aplicacion.tar migueluna
+```
 
