@@ -15,9 +15,22 @@
 
 ## 1. Introduction and Theoretical Framework
 
-The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gateway Protocol) for best path selection. Its main characteristics are:
+1. **What is Docker?**
+Docker is an open-source platform that enables developers to build, ship, and run applications inside isolated environments called containers. By packing an application together with all of its dependencies, libraries, and configuration files, Docker ensures that the software runs reliably across any computing environment—whether on a local development machine, a virtual machine, or a cloud server.
 
-* **Local Scope:** It has meaning exclusively within the local router where it is configured and is not propagated via BGP routing updates to neighbors.
+2. **Docker Image**
+A Docker image is a read-only, immutable template that contains instructions for creating a Docker container. It includes the application code, runtime, libraries, environment variables, and dependency configuration files. Images serve as the building blocks for containers; they can be built locally using a configuration file or downloaded from registries like Docker Hub.
+
+3. **Docker Container**
+A Docker container is a runnable, isolated instance of a Docker image. Containers utilize lightweight virtualization, sharing the host operating system's kernel while keeping processes, network interfaces, and file systems completely segregated. They can be created, started, stopped, moved, and deleted using the Docker CLI.
+
+4. **Dockerfile**
+A Dockerfile is a text document containing a sequential set of automated commands and instructions used by the Docker daemon to build a Docker image. Key instructions commonly used include:
+- `FROM`: Specifies the base image (e.g., Python) to start the build process.
+- `RUN`: Executes commands inside the image layer (such as installing packages via pip).
+- `COPY`: Transfers files and directories from the host machine into the container's file system.
+- `EXPOSE`: Informs Docker that the container listens on specific network ports at runtime.
+- `CMD`: Defines the default command to execute when the container starts running.
 
 ## 2. Build a Sample Web App in a Docker Container
  
