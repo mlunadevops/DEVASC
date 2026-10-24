@@ -221,3 +221,29 @@ docker run -t -d -p 8080:8080 --name samplerunning sampleapp
 docker ps -a
 ```
 ![Docker Execution](images/06DockerExecution.png)
+
+5 **Docker Management Commands:**
+
+5.1 **Stop the container (if it is running):**
+
+```bash
+docker ps -a
+```
+
+5.2 **Stop the container (if it is running):**
+
+```bash
+docker stop <nombre_o_id_del_contenedor>
+```
+
+5.3 **Remove the container:**
+
+```bash
+docker rm <nombre_o_id_del_contenedor>
+```
+
+5.4 **If you want to force-remove a container even if it is running (without having to stop it first), you can add the `-f` (force) flag:**
+
+```bash
+docker rm -f <nombre_o_id_del_contenedor>
+```
