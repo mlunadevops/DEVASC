@@ -112,7 +112,7 @@ Now we will expand our application to use static HTML and CSS files instead of r
 
 Follow these steps in your terminal (make sure you stopped the previous server with `CTRL + C` if it was still running):
 
-1. **Explore the existing directories (`templates` and `static`):**
+4.1 **Explore the existing directories (`templates` and `static`):**
 
     Previous folders with `index.html` and `style.css` already exist. You can check their content with:
 
