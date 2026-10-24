@@ -147,3 +147,11 @@ python3 sample_app.py
 ```
 
 ![Program Execution CURL](images/04Executionweb.png)
+
+```bash
+curl http://0.0.0.0:8080
+```
+
+![Program Execution CURL](images/05Executionweb.png)
+
+
