@@ -32,6 +32,9 @@ A Dockerfile is a text document containing a sequential set of automated command
 - `EXPOSE`: Informs Docker that the container listens on specific network ports at runtime.
 - `CMD`: Defines the default command to execute when the container starts running.
 
+![Infografia](images/00Infografia.jpg)
+  
+
 ## 2. Build a Sample Web App in a Docker Container
  
 **Part 2.1:** Launch the DEVASC VM
