@@ -96,3 +96,6 @@ if __name__ == "__main__":
 ```bash
 python3 sample-app.sh
 ```
+
+![Program Execution WEB](images/02Executionweb.png)
+
