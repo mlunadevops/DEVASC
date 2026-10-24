@@ -70,7 +70,8 @@ Follow these steps in your terminal inside the DEVASC VM:
 1. **Install Flask and open the port in the firewall (if necessary):**
    
 ```bash
-   pip3 install flask
+sudo apt update && sudo apt install -y python3-pip
+pip3 install flask
 ```
 ## 3. BGP Configuration:
 
