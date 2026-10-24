@@ -124,3 +124,18 @@ Previous folders with `index.html` and `style.css` already exist. You can check 
 4.2 **Update the `sample_app.py` code:**
 
 Edit your `sample_app.py` file to import `render_template` and render the HTML template.
+
+```bash
+ from flask import Flask
+from flask import request
+from flask import render_template
+
+sample = Flask(__name__)
+
+@sample.route("/")
+def main():
+    return render_template("index.html")
+
+if __name__ == "__main__":
+    sample.run(host="0.0.0.0", port=8080)
+```
