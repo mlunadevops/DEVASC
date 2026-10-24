@@ -54,6 +54,8 @@ Bash scripting is a prerequisite for automation, CI/CD, and managing development
 
 ```bash
    chmod a+x user-input.sh
+```
+```bash
    mv user-input.sh user-input
 ```
 
