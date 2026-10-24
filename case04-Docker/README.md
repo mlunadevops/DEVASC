@@ -170,9 +170,8 @@ cp -r templates/* tempdir/templates/.
 cp -r static/* tempdir/static/.
 ```
 
-4.4 **Add the commands to create temporary directories and copy files:**
+4.4 **Add the commands to create temporary directories and copy files (The following files are used to build the Homepage packed in docker):**
 Write the following content to the file:
-The following files are used to build the Homepage packed in docker:
 
 - **`sample_app.py`:** The backend Python Flask code that serves the web application and listens for incoming requests.
 - **`templates/`:** Contains the HTML files (the frontend layout/homepage structure) that Flask renders.
