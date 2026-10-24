@@ -114,7 +114,7 @@ Follow these steps in your terminal (make sure you stopped the previous server w
 
 4.1 **Explore the existing directories (`templates` and `static`):**
 
-    Previous folders with `index.html` and `style.css` already exist. You can check their content with:
+Previous folders with `index.html` and `style.css` already exist. You can check their content with:
 
 ```bash
    cat templates/index.html
