@@ -104,6 +104,20 @@ python3 sample-app.sh
 ```bash
 curl http://0.0.0.0:8080
 ```
-
 ![Program Execution CURL](images/03Executionweb.png)
+
+4 **Moving on to Part 4: Configure the Web App to Use Website Files**
+
+Now we will expand our application to use static HTML and CSS files instead of returning plain text directly from Python.
+
+Follow these steps in your terminal (make sure you stopped the previous server with `CTRL + C` if it was still running):
+
+1. **Explore the existing directories (`templates` and `static`):**
+
+    Previous folders with `index.html` and `style.css` already exist. You can check their content with:
+
+    ```bash
+   cat templates/index.html
+   cat static/style.css
+   ```
 
