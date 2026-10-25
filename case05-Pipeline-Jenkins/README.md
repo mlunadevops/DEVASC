@@ -150,7 +150,17 @@ docker stop samplerunning
 docker rm samplerunning
 ```
 
+3.9 **SMake the Final Commit and Push for Part 3 to GitHub**S
 
+Return to the root directory of your application and push the final changes to your remote repository:
+
+ ```text
+cd ~/labs/devnet-src/jenkins/sample-app/
+git add .
+git status
+git commit -m "Changed port from 8080 to 5050 and fixed pip build flags."
+git push origin master
+```
 
 #### 1. Configure your local Git credentials:
 
