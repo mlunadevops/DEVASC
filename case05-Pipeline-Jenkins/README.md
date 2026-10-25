@@ -58,6 +58,7 @@ git remote add origin https://github.com/github-username/sample-app.git
 !
 ```
 
+3.4. **Stage, commit, and push the files (git add, commit, and push):**
 
 
 Follow these steps in your virtual machine terminal:
