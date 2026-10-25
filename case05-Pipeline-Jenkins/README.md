@@ -61,8 +61,7 @@ git remote add origin https://github.com/github-username/sample-app.git
 git add *
 ```
 
-**Command git add (*):** Checks the current state of your working directory and staging area.  
-**Explanation:** It shows you which files have been staged (ready to be committed), which ones are modified, and which ones are untracked. It's a great sanity check before saving your changes.
+**Command git status:** Checks the current state of your working directory and staging area.  It shows you which files have been staged (ready to be committed), which ones are modified, and which ones are untracked. It's a great sanity check before saving your changes.
 
 ```text
 git status
