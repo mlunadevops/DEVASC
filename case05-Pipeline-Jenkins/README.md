@@ -150,7 +150,7 @@ docker stop samplerunning
 docker rm samplerunning
 ```
 
-3.9 **SMake the Final Commit and Push for Part 3 to GitHub**S
+3.9 **Make the Final Commit and Push for Part 3 to GitHub**
 
 Return to the root directory of your application and push the final changes to your remote repository:
 
@@ -162,6 +162,20 @@ git commit -m "Changed port from 8080 to 5050 and fixed pip build flags."
 git push origin master
 ```
 
-#### 1. Configure your local Git credentials:
+### Download and Run the Jenkins Docker Image
+
+3.10 **Create the Working Directory for Jenkins (Exit the application directory and move to the main Jenkins folder on the VM):**
+
+ ```text
+cd ~/labs/devnet-src/jenkins/
+```
+
+3.11 **Build or Spin Up the Jenkins Container*:*
+
+Run the command to pull/create and run the Jenkins image in the background (detached mode):
+
+ ```text
+docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -d --name jenkinsdevasc jenkins/jenkins:lts
+```
 
 
