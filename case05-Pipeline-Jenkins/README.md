@@ -94,7 +94,9 @@ git remote add origin https://github.com/mlunadevops/sample-app.git
 git push origin master
 ```
 
-3.5. Modify the Sample App and Push Changes to Git
+###  Modify the Sample App and Push Changes to Git:
+
+ 
 
 #### 1. Configure your local Git credentials:
 
