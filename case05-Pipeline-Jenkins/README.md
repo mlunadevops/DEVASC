@@ -28,6 +28,18 @@ The topology consists of four routers across different Autonomous Systems (AS 10
 
 3.1 **Send the Sample Application to Git**
 
+```text
+! 
+git config --global user.name "Sample User"
+git config --global user.email sample@example.com
+!
+```
+
+3.2. **Initialize the directory as a Git repository:**
+
+The application files are already pre-installed in the lab path. Navigate to them and initialize Git:
+
+
 Follow these steps in your virtual machine terminal:
 
 #### 1. Configure your local Git credentials:
@@ -35,11 +47,7 @@ Replace `"Sample User"` with your real name and `user@example.com` with your ema
 
 **Router A (RTA - AS 100):**
 
-```text
-! 
-router bgp 100
-!
-```
+
 
 ### 4. BGP Configuration:
 
