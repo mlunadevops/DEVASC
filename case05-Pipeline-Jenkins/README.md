@@ -57,6 +57,9 @@ git remote add origin https://github.com/github-username/sample-app.git
 
 ```text
 git add *
+```
+```text
+
 git status
 git commit -m "Committing sample-app files."
 git push origin master
