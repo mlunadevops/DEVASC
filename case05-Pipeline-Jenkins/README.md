@@ -55,15 +55,21 @@ git remote add origin https://github.com/github-username/sample-app.git
 
 3.4. **Stage, commit, and push the files (git add, commit, and push):**
 
-**Purpose git add:** Stages all files and directories in the current working directory:
+**Command git add *:** Stages all files and directories in the current working directory.
 
 ```text
 git add *
 ```
-```text
 
+```text
 git status
+```
+
+```text
 git commit -m "Committing sample-app files."
+```
+
+```text
 git push origin master
 ```
 
