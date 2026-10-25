@@ -133,7 +133,11 @@ docker build -t sampleapp .
 docker run -t -d -p 5050:5050 --name samplerunning sampleapp
 docker ps -a
 ```
+3.7 **Build and run your app:**
 
+ ```text
+bash sample-app.sh
+```
 
 #### 1. Configure your local Git credentials:
 
