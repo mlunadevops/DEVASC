@@ -39,6 +39,13 @@ git config --global user.email sample@example.com
 
 The application files are already pre-installed in the lab path. Navigate to them and initialize Git:
 
+```text
+! 
+cd labs/devnet-src/jenkins/sample-app/
+git init
+!
+```
+
 
 Follow these steps in your virtual machine terminal:
 
