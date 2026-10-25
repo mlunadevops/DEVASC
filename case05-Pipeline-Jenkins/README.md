@@ -67,7 +67,11 @@ git status
 ```
 ![git status](images/01gitstatus.png)
 
-**Command git commit -m "Committing sample-app files.:**
+**Command git commit -m "Committing sample-app files.:** Saves your staged changes permanently to your local repository history.   
+**Explanation:**
+
+**`commit:** Takes a snapshot of the staged files.   
+**-m:** Stands for "message", allowing you to attach a short, descriptive note explaining what changes were made and why.
 
 ```text
 git commit -m "Committing sample-app files."
