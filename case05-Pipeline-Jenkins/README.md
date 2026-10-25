@@ -139,6 +139,7 @@ docker ps -a
  ```text
 bash sample-app.sh
 ```
+![bash example](images/02bashexample.png)
 
 #### 1. Configure your local Git credentials:
 
