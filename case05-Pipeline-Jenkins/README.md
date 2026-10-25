@@ -24,7 +24,14 @@ The topology consists of four routers across different Autonomous Systems (AS 10
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
-## 3. BGP Configuration:
+## 3. CI/CD Pipeline Configuration:
+
+3.1 **Send the Sample Application to Git**
+
+Follow these steps in your virtual machine terminal:
+
+#### 1. Configure your local Git credentials:
+Replace `"Sample User"` with your real name and `user@example.com` with your email address (you can use your GitHub account details):
 
 **Router A (RTA - AS 100):**
 
