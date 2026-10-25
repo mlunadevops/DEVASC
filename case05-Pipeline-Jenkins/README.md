@@ -28,6 +28,8 @@ The topology consists of four routers across different Autonomous Systems (AS 10
 
 3.1 **Send the Sample Application to Git**
 
+Replace **`"Sample User"`** with your real name and **`user@example.com`** with your email (use your GitHub credentials):
+
 ```text
 git config --global user.name "Sample User"
 git config --global user.email sample@example.com
