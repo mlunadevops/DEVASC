@@ -52,6 +52,12 @@ git init
 - Create a new repository named **`sample-app`**, with an optional description, and configured as **Private** (or **Public**, depending on your preference).
 - Connect your local repository by running the following command in the terminal (replace `github-username` with your GitHub username, maintaining exact case sensitivity):
 
+```text
+! 
+git remote add origin https://github.com/github-username/sample-app.git
+!
+```
+
 
 
 Follow these steps in your virtual machine terminal:
