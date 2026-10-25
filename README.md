@@ -9,5 +9,5 @@
 | **02** | [Software Version Control with Git](./case02-SW-version-git/) | Software Version Control with Git |
 | **03** | [API](./case03-API/) | API |
 | **04** | [Docker](./case04-Docker/) | Docker Container|
-| **05** | [Docker](./case05-Pipeline-Jenkins/) | Build a CI/CD Pipeline Using Jenkins |
+| **05** | [CI/CD Jenkins](./case05-Pipeline-Jenkins/) | Build a CI/CD Pipeline Using Jenkins |
 | ... | ... | ... |
