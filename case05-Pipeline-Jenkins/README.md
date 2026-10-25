@@ -146,7 +146,8 @@ bash sample-app.sh
 As usual, free up the port and clean up the running container:
 
  ```text
-bash sample-app.sh
+docker stop samplerunning
+docker rm samplerunning
 ```
 
 
