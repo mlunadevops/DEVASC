@@ -76,6 +76,12 @@ git status
 ```text
 git commit -m "Committing sample-app files."
 ```
+**Command git push origin master:**  Uploads your local commits to your remote repository on GitHub.  
+**Explanation:**
+**origin:** The default shorthand alias pointing to your remote repository URL on GitHub.
+**master:** The name of the local branch you are pushing (uploading) to the remote server.
+**(Remember that this is where you will provide your GitHub username and Personal Access Token instead of your password).**
+
 
 ```text
 git push origin master
