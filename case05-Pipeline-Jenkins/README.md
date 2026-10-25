@@ -67,6 +67,8 @@ git add *
 git status
 ```
 
+**Command git status:**
+
 ```text
 git commit -m "Committing sample-app files."
 ```
