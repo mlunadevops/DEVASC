@@ -29,21 +29,16 @@ The topology consists of four routers across different Autonomous Systems (AS 10
 3.1 **Send the Sample Application to Git**
 
 ```text
-! 
 git config --global user.name "Sample User"
 git config --global user.email sample@example.com
-!
 ```
-
 3.2. **Initialize the directory as a Git repository:**
 
 The application files are already pre-installed in the lab path. Navigate to them and initialize Git:
 
 ```text
-! 
 cd labs/devnet-src/jenkins/sample-app/
 git init
-!
 ```
 
 3.3. **Link the local repository to GitHub:**
@@ -53,13 +48,17 @@ git init
 - Connect your local repository by running the following command in the terminal (replace `github-username` with your GitHub username, maintaining exact case sensitivity):
 
 ```text
-! 
 git remote add origin https://github.com/github-username/sample-app.git
-!
 ```
 
 3.4. **Stage, commit, and push the files (git add, commit, and push):**
 
+```text
+git add *
+git status
+git commit -m "Committing sample-app files."
+git push origin master
+```
 
 Follow these steps in your virtual machine terminal:
 
