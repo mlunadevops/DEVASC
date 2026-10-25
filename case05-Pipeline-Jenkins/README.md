@@ -67,9 +67,7 @@ git status
 ```
 ![git status](images/01gitstatus.png)
 
-
-01gitstatus.png
-**Command git status:**
+**Command git commit -m "Committing sample-app files.:**
 
 ```text
 git commit -m "Committing sample-app files."
