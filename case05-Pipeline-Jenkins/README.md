@@ -141,6 +141,16 @@ bash sample-app.sh
 ```
 ![bash example](images/02bashexample.png)
 
+3.8 **Stop the Test Container (samplerunning):**
+
+As usual, free up the port and clean up the running container:
+
+ ```text
+bash sample-app.sh
+```
+
+
+
 #### 1. Configure your local Git credentials:
 
 
