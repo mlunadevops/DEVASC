@@ -92,10 +92,9 @@ git remote add origin https://github.com/mlunadevops/sample-app.git
 git push origin master
 ```
 
-Follow these steps in your virtual machine terminal:
-
 #### 1. Configure your local Git credentials:
-Replace `"Sample User"` with your real name and `user@example.com` with your email address (you can use your GitHub account details):
+
+
 
 **Router A (RTA - AS 100):**
 
