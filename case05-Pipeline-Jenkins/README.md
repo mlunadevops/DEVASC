@@ -22,7 +22,9 @@ The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gatewa
 
 The topology consists of four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
 
-## 3. CI/CD Pipeline Configuration:
+### Configuration:
+
+## 3. Commit the Sample App to Git Configuration:
 
 3.1 **Send the Sample Application to Git**
 
@@ -91,6 +93,8 @@ git remote add origin https://github.com/mlunadevops/sample-app.git
 ```text
 git push origin master
 ```
+
+3.5. Modify the Sample App and Push Changes to Git
 
 #### 1. Configure your local Git credentials:
 
