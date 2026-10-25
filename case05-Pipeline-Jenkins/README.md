@@ -170,6 +170,13 @@ git push origin master
 cd ~/labs/devnet-src/jenkins/
 ```
 
+```text
+docker volume create jenkins_home
+```
+
+
+
+
 3.11 **Build or Spin Up the Jenkins Container*:*
 
 Run the command to pull/create and run the Jenkins image in the background (detached mode):
