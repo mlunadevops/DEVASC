@@ -179,6 +179,7 @@ docker volume create jenkins_home
 ```text
 docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --privileged --user root -d --name jenkinsdevasc jenkins/jenkins:lts
 ```
+**Note:** The --privileged and --user root flags were added to resolve VM kernel thread restrictions (pthread_create EPERM) and container file permission errors."
 
 3.12 **Get your initial administrator password:**
 
