@@ -174,7 +174,7 @@ cd ~/labs/devnet-src/jenkins/
 docker volume create jenkins_home
 ```
 
-3.11 ****
+3.11 **Run the Jenkins Docker container with privileged root access:**
 
 ```text
 docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --privileged --user root -d --name jenkinsdevasc jenkins/jenkins:lts
