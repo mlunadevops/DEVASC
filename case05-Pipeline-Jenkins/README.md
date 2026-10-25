@@ -46,6 +46,13 @@ git init
 !
 ```
 
+3.3. **Link the local repository to GitHub:**
+
+- Go to GitHub and log in.
+- Create a new repository named **`sample-app`**, with an optional description, and configured as **Private** (or **Public**, depending on your preference).
+- Connect your local repository by running the following command in the terminal (replace `github-username` with your GitHub username, maintaining exact case sensitivity):
+
+
 
 Follow these steps in your virtual machine terminal:
 
