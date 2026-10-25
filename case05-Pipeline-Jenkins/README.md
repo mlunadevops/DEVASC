@@ -96,6 +96,8 @@ git push origin master
 
 ###  Modify the Sample App and Push Changes to Git:
 
+3.5 **Send the Sample Application to Git**
+
  
 
 #### 1. Configure your local Git credentials:
