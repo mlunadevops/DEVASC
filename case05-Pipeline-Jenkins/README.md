@@ -174,19 +174,17 @@ cd ~/labs/devnet-src/jenkins/
 docker volume create jenkins_home
 ```
 
+3.11 ****
+
 ```text
 docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --privileged --user root -d --name jenkinsdevasc jenkins/jenkins:lts
 ```
 
+3.12 **Get your initial administrator password:**
 
-
-
-3.11 **Build or Spin Up the Jenkins Container*:*
-
-Run the command to pull/create and run the Jenkins image in the background (detached mode):
-
- ```text
-docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -d --name jenkinsdevasc jenkins/jenkins:lts
+```text
+docker exec jenkinsdevasc cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
+![bash example](images/03Jenkins.png)
 
