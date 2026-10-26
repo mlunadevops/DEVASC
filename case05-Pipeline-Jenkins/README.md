@@ -243,3 +243,5 @@ bash sample-app.sh
 3. Access the **Console Output** view to analyze the execution logs:
    - **Identified error:** `bash: sample-app.sh: No such file or directory` (or a path error when trying to access host paths).
    - **Root cause:** Jenkins is running isolated inside the `jenkinsdevasc` Docker container. The file `sample-app.sh` did not exist inside the container's local working directory (`/var/jenkins_home/workspace/sample-app-pipeline`).
+
+![Jenkins](images/09Jenkins.png)
