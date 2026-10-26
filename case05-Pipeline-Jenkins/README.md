@@ -189,3 +189,8 @@ docker exec jenkinsdevasc cat /var/jenkins_home/secrets/initialAdminPassword
 
 ![bash example](images/03Jenkins.png)
 
+### Configuration and Debugging of a Freestyle Job in Jenkins
+
+ Objective of Part 5
+3.12 Create, configure, debug, and verify the execution of a Freestyle project or job **(`sample-app-pipeline`)** in Jenkins to automate the build process within a containerized environment.
+
