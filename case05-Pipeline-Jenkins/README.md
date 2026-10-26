@@ -220,3 +220,6 @@ docker exec jenkinsdevasc cat /var/jenkins_home/secrets/initialAdminPassword
 ![Jenkins](images/08Jenkins.png)
 
 
+```text
+
+```
