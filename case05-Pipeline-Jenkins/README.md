@@ -4,11 +4,7 @@
 **CCNP Miguelangel Luna**
 ---
 
-## CONTENIDOS:
-
-| Case | Title | Description |
-| :--- | :--- | :--- |
-| **01** | [Claude & n8n AI Agents](./case-01-Google-Auth/) | Agentes Claude . |
+## CONTENT:
 
 [Cisco Networking Academy](https://www.google.com)
 
