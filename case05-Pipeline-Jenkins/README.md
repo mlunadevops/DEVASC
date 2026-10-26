@@ -245,3 +245,16 @@ bash sample-app.sh
    - **Root cause:** Jenkins is running isolated inside the `jenkinsdevasc` Docker container. The file `sample-app.sh` did not exist inside the container's local working directory (`/var/jenkins_home/workspace/sample-app-pipeline`).
 
 ![Jenkins](images/09Jenkins.png)
+
+# Use Jenkins to Run a Build of Your App (`BuildAppJob`)
+
+## Create the New Job
+
+3.17 **First**
+
+1. On the main Jenkins dashboard, click **Create a job** (or **New Item** in the left sidebar menu).
+2. In the **Enter an item name** field, type exactly: `BuildAppJob`.
+3. Select the **Freestyle project** project type.
+4. Scroll to the bottom and click the **OK** button.
+
+![Jenkins](images/10Jenkins.png)
