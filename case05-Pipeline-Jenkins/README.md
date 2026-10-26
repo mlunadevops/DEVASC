@@ -196,6 +196,19 @@ docker exec jenkinsdevasc cat /var/jenkins_home/secrets/initialAdminPassword
 
 ![Jenkins](images/04Jenkins.png)
 
-
 ![Jenkins](images/05Jenkins.png)
+
+3.13 Source Code Management (SCM) Configuration.
+
+1. In the **Source Code Management** section, leave the option set to **None**, as Git plugin integration is not available in this local environment.
+2. Code execution will be managed directly through shell commands within the workspace.
+
+3.14 Build Step Configuration
+
+1. In the configuration menu, scroll down to the **Build Steps** section.
+2. Click **Add build step** and select the **Execute shell** option.
+3. In the shell commands text field, enter the initial command to invoke the application script:
+
+![Jenkins](images/06Jenkins.png)
+
 
