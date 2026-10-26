@@ -263,10 +263,10 @@ bash sample-app.sh
 
 You are now on the job configuration screen. Perform the following steps:
 
-1. **General** tab:
+3.18 **General** tab:
    - Add a description, for example: `"My first Jenkins job"`.
 
-2. **Source Code Management (SCM)** tab:
+3.19 **Source Code Management (SCM)** tab:
    - Select the **Git** option.
    - In **Repository URL**, enter the URL of your GitHub repository (make sure to replace `your-github-username` with your actual username and end with `.git`):
 
