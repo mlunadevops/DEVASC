@@ -246,9 +246,9 @@ bash sample-app.sh
 
 ![Jenkins](images/09Jenkins.png)
 
-# Use Jenkins to Run a Build of Your App (`BuildAppJob`)
 
-3.17 **Create the New Job**
+
+3.17 **Use Jenkins to Run a Build of Your App (`BuildAppJob`)**
 
 1. On the main Jenkins dashboard, click **Create a job** (or **New Item** in the left sidebar menu).
 2. In the **Enter an item name** field, type exactly: **`BuildAppJob`.**
