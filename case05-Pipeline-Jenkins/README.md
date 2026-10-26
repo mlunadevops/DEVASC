@@ -218,5 +218,7 @@ docker exec jenkinsdevasc cat /var/jenkins_home/secrets/initialAdminPassword
 3. In the shell commands text field, enter the initial command to invoke the application script:
 
 ![Jenkins](images/07Jenkins.png)
-   
+
+![Jenkins](images/08Jenkins.png)
+
 
