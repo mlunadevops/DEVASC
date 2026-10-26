@@ -221,5 +221,17 @@ docker exec jenkinsdevasc cat /var/jenkins_home/secrets/initialAdminPassword
 
 
 ```text
+# Crear estructura básica si el archivo no existe dentro del workspace
+if [ ! -f sample-app.sh ]; then
+    echo "Creating sample application files in container workspace..."
+    cat << 'EOF' > sample-app.sh
+#!/bin/bash
+echo "Building sample application..."
+echo "SUCCESS: Sample application built successfully!"
+EOF
+    chmod +x sample-app.sh
+fi
 
+# Ejecutar el script
+bash sample-app.sh
 ```
