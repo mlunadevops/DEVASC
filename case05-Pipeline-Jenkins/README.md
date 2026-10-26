@@ -191,6 +191,14 @@ docker exec jenkinsdevasc cat /var/jenkins_home/secrets/initialAdminPassword
 
 ### Configuration and Debugging of a Freestyle Job in Jenkins
 
- Objective of Part 5
 3.12 Create, configure, debug, and verify the execution of a Freestyle project or job **(`sample-app-pipeline`)** in Jenkins to automate the build process within a containerized environment.
+
+1 In the main Jenkins Dashboard panel, select the **New Item** option from the left sidebar menu.
+2. Enter the item name: `sample-app-pipeline`.
+3. Select the project type: **Freestyle project**.
+4. Click **OK** to open the project's general configuration screen.
+
+![Jenkins](images/04Jenkins.png)
+
+
 
