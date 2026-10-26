@@ -253,8 +253,23 @@ bash sample-app.sh
 3.17 **First**
 
 1. On the main Jenkins dashboard, click **Create a job** (or **New Item** in the left sidebar menu).
-2. In the **Enter an item name** field, type exactly: `BuildAppJob`.
+2. In the **Enter an item name** field, type exactly: **`BuildAppJob`.**
 3. Select the **Freestyle project** project type.
 4. Scroll to the bottom and click the **OK** button.
 
 ![Jenkins](images/10Jenkins.png)
+
+## Configure `BuildAppJob`
+
+You are now on the job configuration screen. Perform the following steps:
+
+1. **General** tab:
+   - Add a description, for example: `"My first Jenkins job"`.
+
+2. **Source Code Management (SCM)** tab:
+   - Select the **Git** option.
+   - In **Repository URL**, enter the URL of your GitHub repository (make sure to replace `your-github-username` with your actual username and end with `.git`):
+
+   ```plaintext
+   [https://github.com/your-github-username/sample-app.git](https://github.com/your-github-username/sample-app.git)
+
