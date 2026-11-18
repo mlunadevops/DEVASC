@@ -302,13 +302,16 @@ curl -k -X POST -F 'username=bob' -F 'password=passwordforbob' 'https://0.0.0.0:
 
 ![Creacion de credenciales](images/loginusers.png)
 
-**5.1)** The following commands are used to simulate user data entry (registration of new users), in this case 2 users, alice and bob, through the following commands:
+**5.1)** The following commands are used to simulate user data entry (registration of new users), in this case 3 users, rick, allan and dave, through the following commands:
 
 ```text
-curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0.0:5000/login/v1'
+curl -k -X POST -F 'username=rick' -F 'password=samepassword' 'https://0.0.0.0:5000/signup/v2'
 ```
 ```text
-curl -k -X POST -F 'username=bob' -F 'password=passwordforbob' 'https://0.0.0.0:5000/login/v1'
+curl -k -X POST -F 'username=allan' -F 'password=samepassword' 'https://0.0.0.0:5000/signup/v2'
+```
+```text
+curl -k -X POST -F 'username=dave' -F 'password=differentpassword' 'https://0.0.0.0:5000/signup/v2'
 ```
 
 
