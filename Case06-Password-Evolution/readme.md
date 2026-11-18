@@ -335,11 +335,10 @@ curl -k -X POST -F 'username=dave' -F 'password=differentpassword' 'https://0.0.
 
 **5.3)** Stop the server when you finish testing:
 
-
 ```text
 pkill -f password-evolution.py
 ```
-
+![Cerrar el script](images/pkillagain.png)
 
 
 
