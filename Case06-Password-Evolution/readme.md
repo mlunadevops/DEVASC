@@ -282,6 +282,10 @@ nohup python3 password-evolution.py
 
 **4.3)** The following commands are used to simulate user data entry (registration of new users), in this case 2 users, alice and bob, through the following commands:
 
+**v1 (Texto plano):** Almacena y compara las contraseñas exactamente como fueron escritas en la tabla en **TEXTO PLANO**.
+
+curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0.0:5000/signup/**v1**
+
 ```text
 curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0.0:5000/signup/v1'
 ```
@@ -292,6 +296,7 @@ curl -k -X POST -F 'username=bob' -F 'password=passwordforbob' 'https://0.0.0.0:
 
 
 **4.4)** Test login, using the credentials created before:
+
 
 ```text
 curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0.0:5000/login/v1'
@@ -317,6 +322,8 @@ curl -k -X POST -F 'username=dave' -F 'password=differentpassword' 'https://0.0.
 
 
 **5.2)** Test login (including an intentional failure with allan):
+
+**v2 (Hash SHA-256):** Cifra la contraseña en una cadena hexadecimal mediante el algoritmo **SHA-256** antes de guardarla o verificarla en la tabla
 
 ```text
 curl -k -X POST -F 'username=rick' -F 'password=samepassword' 'https://0.0.0.0:5000/login/v2'
@@ -356,5 +363,4 @@ In the **USER_HASH** table you will see the SHA-256 hashes. You will notice that
 ![SQL lite](images/DBsqlite.png)
 
 
-### 4. BGP Configuration:
 
