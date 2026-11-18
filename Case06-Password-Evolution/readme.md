@@ -107,6 +107,21 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
 ```
 
+**3.4)** Save the file (Ctrl + S) and run it in the background:
+
+Execute the following command:
+
+```text
+nohup  python3 password-evolution.py  &
+  │              │                    │
+  │              │                    └── ejecuta en segundo plano
+  │              └── ejecuta el script con Python 3
+  └── "no hang up": inmune a la desconexión
+```
+
+```text
+nohup python3 password-evolution.py
+```
 
 
 
