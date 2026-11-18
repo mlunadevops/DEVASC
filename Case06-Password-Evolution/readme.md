@@ -145,6 +145,8 @@ curl -k https://0.0.0.0:5000/
 ```text
 pkill -f password-evolution.py
 ```
+![PKILL](images/pkill.png)
+
 
 ### 4. BGP Configuration:
 
