@@ -288,7 +288,7 @@ curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0
 ```text
 curl -k -X POST -F 'username=bob' -F 'password=passwordforbob' 'https://0.0.0.0:5000/signup/v1'
 ```
-![Creacion de credenciales](images/Nohuppython3password.png)
+![Creacion de credenciales](images/Registrousuarios.png)
 
 
 **4.4)** Test login, using the credentials created before:
