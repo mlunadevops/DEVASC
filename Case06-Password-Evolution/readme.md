@@ -140,5 +140,11 @@ curl -k https://0.0.0.0:5000/
 
 ![Verificar la navegacion](images/Curl1.png)
 
+**3.6)** Stop the script:
+
+```text
+pkill -f password-evolution.py
+```
+
 ### 4. BGP Configuration:
 
