@@ -107,9 +107,15 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
 ```
 
-**3.4)** Save the file (Ctrl + S) and run it in the background:
+**3.4)** Save the file (Ctrl + S) and run it in the background, execute the following command **(nohup python3 password-evolution.py)**:
 
-Execute the following command:
+
+
+**python** — Invokes the Python interpreter.
+
+**password-evolution.py** — The script file you want to execute.
+
+**&** — Runs the process in the background, so the terminal returns control to you immediately instead of waiting for the script to finish.
 
 ```text
 nohup  python3 password-evolution.py  &
