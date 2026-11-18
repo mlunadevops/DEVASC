@@ -333,6 +333,13 @@ curl -k -X POST -F 'username=allan' -F 'password=samepassword' 'https://0.0.0.0:
 curl -k -X POST -F 'username=dave' -F 'password=differentpassword' 'https://0.0.0.0:5000/login/v2'
 ```
 
+**5.3)** Stop the server when you finish testing:
+
+
+```text
+pkill -f password-evolution.py
+```
+
 
 
 
