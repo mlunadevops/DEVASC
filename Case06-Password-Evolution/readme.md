@@ -109,7 +109,8 @@ if __name__ == '__main__':
 
 **3.4)** Save the file (Ctrl + S) and run it in the background, execute the following command **(nohup python3 password-evolution.py)**:
 
-
+**nohup** → "no hang up" (don't hang up)
+Normally, when you close the terminal or the SSH session is cut off, the system sends a SIGHUP (hang up) signal to the child processes and kills them.
 
 **python** — Invokes the Python interpreter.
 
