@@ -34,6 +34,10 @@ c = sumar(2, 3)
 print(c)  # Output: 5
 ```
 
+**framework: ** is a pre-built skeleton on which you build your application: it defines the structure and the flow, and you just fill in the gaps with your code.
+
+**Framework example:** The blueprint of a house: the structure (foundation, beams, rooms) is already decided. You just furnish and decorate each space.
+
 ## 2. Topology and BGP Neighbor Establishment
 
 The topology consists of four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
