@@ -353,5 +353,8 @@ In the **USER_PLAIN** table you will see alice's and bob's passwords fully reada
 
 In the **USER_HASH** table you will see the SHA-256 hashes. You will notice that rick and allan have exactly the same hash because they used the same password (samepassword) and the code does not use a salt (a unique random string per user).
 
+![SQL lite](images/DBsqlite.png)
+
+
 ### 4. BGP Configuration:
 
