@@ -80,5 +80,8 @@ pip3 install pyotp
 pip3 install flask
 ```
 
+![Installing PYOTP and FLASK](images/PasswordEvolution.png)
+
+
 ### 4. BGP Configuration:
 
