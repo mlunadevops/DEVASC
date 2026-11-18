@@ -138,6 +138,7 @@ nohup python3 password-evolution.py
 curl -k https://0.0.0.0:5000/
 ```
 
+![Verificar la navegacion](images/Curl1.png)
 
 ### 4. BGP Configuration:
 
