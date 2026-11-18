@@ -255,7 +255,30 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
 ```
 
+**4.2)** execute the following command **(nohup python3 password-evolution.py)**:
 
+**nohup** → "no hang up" (don't hang up)
+Normally, when you close the terminal or the SSH session is cut off, the system sends a SIGHUP (hang up) signal to the child processes and kills them.
+
+**python** — Invokes the Python interpreter.
+
+**password-evolution.py** — The script file you want to execute.
+
+**&** — Runs the process in the background, so the terminal returns control to you immediately instead of waiting for the script to finish.
+
+```text
+nohup  python3 password-evolution.py  &
+  │              │                    │
+  │              │                    └── ejecuta en segundo plano
+  │              └── ejecuta el script con Python 3
+  └── "no hang up": inmune a la desconexión
+```
+
+```text
+nohup python3 password-evolution.py
+```
+
+![Running Script](images/Nohuppython3password.png)
 
 ### 4. BGP Configuration:
 
