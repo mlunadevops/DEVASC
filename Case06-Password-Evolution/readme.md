@@ -25,9 +25,7 @@ def sumar(a, b):
     return a + b
 ```
 
-
-# main.py
-
+In the following example we are calling the library function **sumar**, giving it the values **2 and 3**, storing the returned result in c, and then printing it with print(c). That's exactly how using a library works main.py
 
 ```text
 from my_library import sumar
