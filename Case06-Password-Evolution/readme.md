@@ -40,11 +40,7 @@ print(c)  # Output: 5
 
 ## 2. Topology and BGP Neighbor Establishment
 
-The topology consists of four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
-
 ![BGP WEIGTH](images/01Topologia.jpg)
-
-
 
 ## Part 3: Install Packages and Create a Web Service:
 
@@ -56,7 +52,7 @@ Open a terminal in VS Code (Terminal > New Terminal) and run the installation of
 
 **What is PyOTP?** 
 
-PyOTP is a Python library for generating and verifying time-based one-time passwords (TOTP) and counter-based one-time passwords (HOTP). It is mainly used to implement **two-factor authentication (2FA)**.
+PyOTP is a **Python library** for generating and verifying time-based one-time passwords (TOTP) and counter-based one-time passwords (HOTP). It is mainly used to implement **two-factor authentication (2FA)**.
 
 **What is Flask?**
 
