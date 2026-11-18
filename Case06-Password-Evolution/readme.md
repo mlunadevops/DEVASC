@@ -16,10 +16,14 @@
 
 ## 1. Introduction and Theoretical Framework
 
-The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gateway Protocol) for best path selection. Its main characteristics are:
+**A library:** is a collection of reusable code — functions, classes, modules — that someone else has already written and packaged so that you can use it in your own programs without having to reinvent it. A library can be a small piece of reusable code, like a function called **sumar.py that takes two variables (A and B) and returns a result (C) using the formula A + B = C**. You don't need to know how it works internally; you just call it and use the result
 
-* **A library:** is a collection of reusable code — functions, classes, modules — that someone else has already written and packaged so that you can use it in your own programs without having to reinvent it.
+Example. the library **sumar.py** :
 
+
+# sumar.py  (una librería)
+def sumar(a, b):
+    return a + b
 
 ## 2. Topology and BGP Neighbor Establishment
 
