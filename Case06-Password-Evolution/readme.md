@@ -326,6 +326,7 @@ curl -k -X POST -F 'username=rick' -F 'password=samepassword' 'https://0.0.0.0:5
 curl -k -X POST -F 'username=allan' -F 'password=wrongpassword' 'https://0.0.0.0:5000/login/v2'
 curl -k -X POST -F 'username=allan' -F 'password=samepassword' 'https://0.0.0.0:5000/login/v2'
 ```
+![Creacion de credenciales](images/wrongpassword.png)
 
 ```text
 curl -k -X POST -F 'username=dave' -F 'password=differentpassword' 'https://0.0.0.0:5000/login/v2'
