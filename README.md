@@ -10,4 +10,5 @@
 | **03** | [API](./case03-API/) | API |
 | **04** | [Docker](./case04-Docker/) | Docker Container|
 | **05** | [CI/CD Jenkins](./case05-Pipeline-Jenkins/) | Build a CI/CD Pipeline Using Jenkins |
+| **06** | [Password Evolution](./Case06-Password-Evolution/) | Password Evolution |
 | ... | ... | ... |
