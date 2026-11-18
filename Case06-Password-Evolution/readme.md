@@ -147,9 +147,9 @@ pkill -f password-evolution.py
 ```
 ![PKILL](images/pkill.png)
 
-## Part 4 and 5:Complete Code (Plain Text + SHA-256 Hashing):
+## Part 4:Complete Code (Plain Text + SHA-256 Hashing):
 
-Instead of deleting and re-adding the if __name__ == '__main__': block twice as the guide asks, here is the complete and functional code for Part 6 (which includes both the v1 plain-text version and the v2 SHA-256 hash version).
+**4.1)** Instead of deleting and re-adding the if __name__ == '__main__': block twice as the guide asks, here is the complete and functional code for Part 6 (which includes both the v1 plain-text version and the v2 SHA-256 hash version).
 
 Replace the entire contents of password-evolution.py with this and save (Ctrl + S):
 
