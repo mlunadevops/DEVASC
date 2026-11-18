@@ -280,7 +280,25 @@ nohup python3 password-evolution.py
 
 ![Running Script](images/Nohuppython3password.png)
 
-**4.2)**
+**4.3)** The following commands are used to simulate user data entry (registration of new users), in this case 2 users, alice and bob, through the following commands:
+
+```text
+curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0.0:5000/signup/v1'
+```
+```text
+curl -k -X POST -F 'username=bob' -F 'password=passwordforbob' 'https://0.0.0.0:5000/signup/v1'
+```
+![Creacion de credenciales](images/Nohuppython3password.png)
+
+
+**4.4)** Test login, using the credentials created before:
+
+```text
+curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0.0:5000/login/v1'
+```
+```text
+curl -k -X POST -F 'username=bob' -F 'password=passwordforbob' 'https://0.0.0.0:5000/login/v1'
+```
 
 ### 4. BGP Configuration:
 
