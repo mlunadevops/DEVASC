@@ -44,11 +44,14 @@ print(c)  # Output: 5
 
 ## Part 3: Install Packages and Create a Web Service:
 
-In your DEVASC VM, open VS Code, go to File > Open Folder... and select the **labs/devnet-src/security folder.**
+**3.1)** In your DEVASC VM, open VS Code, go to File > Open Folder... and select the **labs/devnet-src/security folder.**
 
 Open the **password-evolution.py** file.
 
-Open a terminal in VS Code (Terminal > New Terminal) and run the installation of the necessary packages.
+![Password Evolution](images/PasswordEvolutionfile.png)
+
+
+**3.2)** Open a terminal in VS Code (Terminal > New Terminal) and run the installation of the necessary packages.
 
 **What is PyOTP?** 
 
