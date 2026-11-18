@@ -38,7 +38,7 @@ print(c)  # Output: 5
 
 **Framework example:** The blueprint of a house: the structure (foundation, beams, rooms) is already decided. You just furnish and decorate each space.
 
-## 2. Topology and BGP Neighbor Establishment
+## 2. INFO
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
@@ -56,7 +56,7 @@ PyOTP is a **Python library** for generating and verifying time-based one-time p
 
 **What is Flask?**
 
-Flask is a micro web framework for Python. It is used to build web applications and APIs in a lightweight and flexible way. It is called "micro" because it includes only the essentials and lets you add the rest as needed (unlike heavier frameworks such as Django).
+Flask is a **micro web framework for Python**. It is used to build web applications and APIs in a lightweight and flexible way. It is called "micro" because it includes only the essentials and lets you add the rest as needed (unlike heavier frameworks such as Django).
 
 **What is it used for?**
 With Flask you can:
