@@ -300,5 +300,8 @@ curl -k -X POST -F 'username=alice' -F 'password=myalicepassword' 'https://0.0.0
 curl -k -X POST -F 'username=bob' -F 'password=passwordforbob' 'https://0.0.0.0:5000/login/v1'
 ```
 
+![Creacion de credenciales](images/loginusers.png)
+
+
 ### 4. BGP Configuration:
 
