@@ -140,7 +140,7 @@ curl -k https://0.0.0.0:5000/
 
 ![Verificar la navegacion](images/Curl1.png)
 
-**3.6)** Stop the script:
+**3.6)** Stop the server before moving on to the next part:
 
 ```text
 pkill -f password-evolution.py
