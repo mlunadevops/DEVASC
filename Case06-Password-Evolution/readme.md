@@ -18,10 +18,8 @@
 
 The Weight attribute is a Cisco proprietary parameter used in BGP (Border Gateway Protocol) for best path selection. Its main characteristics are:
 
-* **Local Scope:** It has meaning exclusively within the local router where it is configured and is not propagated via BGP routing updates to neighbors.
-* **Value Range:** An integer number between 0 and 65,535.
-* **Default Values:** Routes originated locally by the router receive a weight of 32,768 by default; routes learned from external or internal neighbors receive a weight of 0 by default.
-* **Precedence:** It is evaluated in the absolute first place within BGP's decision algorithm (above Local Preference, AS_PATH, MED, etc.). Routes with a higher Weight value have absolute preference.
+* **A library:** is a collection of reusable code — functions, classes, modules — that someone else has already written and packaged so that you can use it in your own programs without having to reinvent it.
+
 
 ## 2. Topology and BGP Neighbor Establishment
 
@@ -39,10 +37,9 @@ Open the **password-evolution.py** file.
 
 Open a terminal in VS Code (Terminal > New Terminal) and run the installation of the necessary packages.
 
-**What is PyOTP?** PyOTP is a Python library for generating and verifying time-based one-time passwords (TOTP) and counter-based one-time passwords (HOTP). It is mainly used to implement **two-factor authentication (2FA)**.
+**What is PyOTP?** 
 
-
-
+PyOTP is a Python library for generating and verifying time-based one-time passwords (TOTP) and counter-based one-time passwords (HOTP). It is mainly used to implement **two-factor authentication (2FA)**.
 
 **What is Flask?**
 
