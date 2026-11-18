@@ -85,6 +85,12 @@ pip3 install flask
 
 ![Installing PYOTP and FLASK](images/PasswordEvolution.png)
 
+**3.3)** Basic Web Server with HTTPS (self-signed certificate):
+
+Here is the code for the **password-evolution.py** file. This server starts a local web server with HTTPS using a self-signed certificate.
+
+
+
 
 ### 4. BGP Configuration:
 
