@@ -342,5 +342,17 @@ pkill -f password-evolution.py
 
 
 
+**5.4)**Database Inspection **(test.db)**:
+
+Open DB Browser for SQLite from the VM's application menu (Applications > All > DB Browser for SQLite).
+
+Open the file labs/devnet-src/security/test.db.
+
+In the Browse Data tab:
+
+In the USER_PLAIN table you will see alice's and bob's passwords fully readable (in plain text).
+
+In the USER_HASH table you will see the SHA-256 hashes. You will notice that rick and allan have exactly the same hash because they used the same password (samepassword) and the code does not use a salt (a unique random string per user).
+
 ### 4. BGP Configuration:
 
