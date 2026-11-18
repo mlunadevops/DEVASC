@@ -130,7 +130,7 @@ nohup  python3 password-evolution.py  &
 nohup python3 password-evolution.py
 ```
 
-![Running Script](images/PasswordEvolution.png)
+![Running Script](images/Nohuppython3password.png)
 
 
 ### 4. BGP Configuration:
