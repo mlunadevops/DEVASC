@@ -132,8 +132,11 @@ nohup python3 password-evolution.py
 
 ![Running Script](images/Nohuppython3password.png)
 
-**3.5)** 
+**3.5)** Verify that it responds using **curl**:
 
+```text
+curl -k https://0.0.0.0:5000/
+```
 
 
 ### 4. BGP Configuration:
