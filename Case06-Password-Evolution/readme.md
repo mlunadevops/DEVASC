@@ -31,8 +31,7 @@ The topology consists of four routers across different Autonomous Systems (AS 10
 
  four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
 
-## 3. BGP Configuration:
-
+## Part 3: Install Packages and Create a Web Service:
 
 Parts 1 and 3: Environment and Dependencies Setup
 (Part 2 is only a theoretical demonstration by the instructor.)
@@ -47,9 +46,8 @@ Open a terminal in VS Code (Terminal > New Terminal) and run the installation of
 **Router A (RTA - AS 100):**
 
 ```text
-! 
-router bgp 100
-!
+pip3 install pyotp
+pip3 install flask
 ```
 
 ### 4. BGP Configuration:
