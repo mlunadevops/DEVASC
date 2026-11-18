@@ -315,7 +315,21 @@ curl -k -X POST -F 'username=dave' -F 'password=differentpassword' 'https://0.0.
 ```
 
 
-**5.2)** Test login, using the credentials created before:
+**5.2)** Test login (including an intentional failure with allan):
+
+```text
+curl -k -X POST -F 'username=rick' -F 'password=samepassword' 'https://0.0.0.0:5000/login/v2'
+```
+```text
+curl -k -X POST -F 'username=allan' -F 'password=wrongpassword' 'https://0.0.0.0:5000/login/v2'
+curl -k -X POST -F 'username=allan' -F 'password=samepassword' 'https://0.0.0.0:5000/login/v2'
+```
+
+curl -k -X POST -F 'username=dave' -F 'password=differentpassword' 'https://0.0.0.0:5000/login/v2'
+```
+
+
+
 
 ### 4. BGP Configuration:
 
