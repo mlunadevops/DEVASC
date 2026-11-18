@@ -20,10 +20,10 @@
 
 Example. the library **sumar.py** :
 
-
-# sumar.py  (una librería)
+```text
 def sumar(a, b):
     return a + b
+```
 
 ## 2. Topology and BGP Neighbor Establishment
 
