@@ -6,7 +6,8 @@
 
 ---
 
- To download the CSR1000v ISO go to: [https://software.cisco.com/download/home/284364978/type/282046477/release/Fuji-16.9.5](https://software.cisco.com/download/home/284364978/type/282046477/release/Fuji-16.9.5) 
+[Download from Cisco Software Central](https://software.cisco.com/)
+
 [OVA Download](https://ftp.radio-portal.su/index.php?folder=Cisco%2FVirtual%2FCSR1000v)
 
 ## 1. Introduction and Theoretical Framework
