@@ -93,11 +93,32 @@ deprecation_warnings = False
 
 ![Ansible Version](images/03ansiblecfg.png)
 
-
 ## Part 3: BGP Configuration:
+
+**3.1)** Use Ansible to Back Up the Configuration:
+
+Step 1: Create the Backup Playbook
+In VS Code, inside the **ansible-csr1000v** folder, create a new file named: backup_cisco_router_playbook.yaml
+
+Paste the following content (be careful with the space indentation!):
 
 **Router:**
 
 ```text
-router bgp 100
+---
+- name: AUTOMATIC BACKUP OF RUNNING-CONFIG
+  hosts: CSR1kv
+  gather_facts: false
+  connection: local
+  tasks:
+    - name: DISPLAYING THE RUNNING-CONFIG
+      ios_command:
+        commands:
+          - show running-config
+      register: config
+
+    - name: SAVE OUTPUT TO ./backups/
+      copy:
+        content: "{{ config.stdout[0] }}"
+        dest: "backups/show_run_{{ inventory_hostname }}.txt"
 ```
