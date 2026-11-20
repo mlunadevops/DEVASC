@@ -58,6 +58,15 @@ Add the following line (or make sure it looks like this):
 
 ![Archivo HOST](images/02Host.png)
 
+**2.2)** Verify the Ansible version.
+
+Open a terminal in VS Code (or the Ubuntu terminal) and navigate to the parent folder to verify the installation:
+
+```text
+cd ~/labs/devnet-src/ansible/ansible-csr1000v
+cd ..
+ansible --version
+```
 
 ## Part 3: BGP Configuration:
 
