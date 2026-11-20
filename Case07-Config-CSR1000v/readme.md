@@ -53,7 +53,7 @@ d. Click Import.
 e. You will now see the CSR1000v VM added to VirtualBox or VMware. 
 
 
-**3.2)** Import the CSR1000v VM **(`csr1000v-universalk9.16.09.05.iso`)**.
+**3.2)** Import the CSR1000v VM **(`csr1000v-universalk9.16.09.05.iso`)** esta es la plantilla de la VM.
 
 Update the installation ISO location.**
 
