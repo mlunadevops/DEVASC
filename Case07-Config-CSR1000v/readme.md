@@ -30,8 +30,9 @@ Part 2: Verify Communications to CSR1000v VM
 - [csr1000v-universalk9.16.09.07.ova](https://ftp.radio-portal.su/index.php?folder=Cisco%2FVirtual%2FCSR1000v) 
 
 
-![BGP WEIGTH](images/01requisitos.png)
+![Prerrequisitos](images/01requisitos.png)
 
+![Imagenes](images/02Imagenes.png)
 
 
 1. **Proxmox VE Connected to PBS:** The PVE node must have the Proxmox Backup Server storage added to its configuration.
