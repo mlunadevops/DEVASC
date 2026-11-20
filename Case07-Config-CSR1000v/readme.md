@@ -84,9 +84,30 @@ At the time this lab was written, the file name was **`csr1000v-universalk9.16.0
 ```
 ![Network Adapter](images/06Red.png)
 
+**3.4)**Disable Hyper-V. in order to Virtualbox run successfully**
+
+```text
+# 1. Deshabilitar la característica Hyper-V (incluye todas las subcaracterísticas)
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -NoRestart
+```
+
+```text
+# 2. Deshabilitar la plataforma de máquina virtual (VirtualMachinePlatform)
+Disable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart
+```
+
+```text
+# 3. Deshabilitar el subsistema de Windows para Linux (opcional, pero usualmente también depende de Hyper-V)
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -NoRestart
+
+```text
+# 4. Clave: desactivar el inicio del hipervisor Hyper-V a nivel de arranque
+bcdedit /set hypervisorlaunchtype off
+```
 
 
-**3.3)** VM Loading Process.**
+
+**3.4)** VM Loading Process.**
 
 Start the VM. 
 
