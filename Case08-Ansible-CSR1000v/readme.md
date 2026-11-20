@@ -91,6 +91,8 @@ retry_files_enabled = False
 deprecation_warnings = False
 ```
 
+![Ansible Version](images/03ansiblecfg.png)
+
 
 ## Part 3: BGP Configuration:
 
