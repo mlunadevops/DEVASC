@@ -38,7 +38,7 @@ We need the following images:
 
 ## 3. Implementation and Deployment Steps
 
-**3.1)** Import the CSR1000v VM (csr1000v-universalk9.16.09.07.ova).**
+**3.1)** Import the CSR1000v VM **(csr1000v-universalk9.16.09.07.ova).**
 
 a. Open Oracle VirtualBox Manager or VMware Workstation. 
 
