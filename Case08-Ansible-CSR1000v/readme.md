@@ -28,15 +28,13 @@ Use Ansible to Back Up and Configure a Device, objectives:
 
 ---
 
-## Parte 1: Iniciar las VMs
+## Part 1: Start the VMs
 
-1. Asegúrate de tener encendida y funcionando tu máquina virtual **DEVASC**.
-2. Asegúrate de tener encendida tu máquina virtual **CSR1000v** (con la IP `192.168.56.101` o la que le haya asignado tu red).
-3. Desde la terminal de la VM DEVASC, verifica la conectividad haciendo un ping al router:
-   ```bash
-   ping 192.168.56.101
+Make sure your DEVASC virtual machine is powered on and running.
 
-The:
+Make sure your CSR1000v virtual machine is powered on (with the IP 192.168.56.101 or whichever one your network has assigned to it).
+
+From the DEVASC VM terminal, verify connectivity by pinging the router:
 
 * **Local Scope:** It has meaning exclusively within the local router where it is configured and is not propagated via BGP routing updates to neighbors.
 
