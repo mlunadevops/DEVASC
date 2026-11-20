@@ -73,6 +73,8 @@ c. In the first CD Drive settings, replace the currently used ISO file
 d. Select the ISO file you received from your instructor in Step 1. 
 At the time this lab was written, the file name was **`csr1000v-universalk9.16.09.05.iso`**. 
 
+![Almacenamiento](images/05Almacenamiento.png)
+
 c. Verify the following: 
 Adapter 1 - Attached to: Host-only Adapter 
 d. Click OK. 
