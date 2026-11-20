@@ -6,6 +6,7 @@
 
 ---
 
+ To download the CSR1000v ISO go to: [https://software.cisco.com/download/home/284364978/type/282046477/release/Fuji-16.9.5](https://software.cisco.com/download/home/284364978/type/282046477/release/Fuji-16.9.5) 
 [OVA Download](https://ftp.radio-portal.su/index.php?folder=Cisco%2FVirtual%2FCSR1000v)
 
 ## 1. Introduction and Theoretical Framework
@@ -74,7 +75,7 @@ Install the CSR1000v VM directly on your x86 computer. It requires at least 4GB 
 **Step 1: Instructor only: Download the CSR1000v ISO file.** 
 **Note:** Only the instructor or anyone with proper credentials is allowed to download ISO files from Cisco. This step must be done by the instructor. 
 
-a. To download the CSR1000v ISO go to: [https://software.cisco.com/download/home/284364978/type/282046477/release/Fuji-16.9.5](https://software.cisco.com/download/home/284364978/type/282046477/release/Fuji-16.9.5) 
+a.
 
 **Note:** To download software from cisco.com, you must be an active NetAcad instructor and have a CCO account with the activated NetAcad Maintenance contract. 
 
