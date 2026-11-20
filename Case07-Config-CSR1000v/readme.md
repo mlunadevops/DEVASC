@@ -40,18 +40,6 @@ We need the following images:
 
 **3.1)** Import the CSR1000v VM.
 
-```text
-& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
-```
-
- 
-### 4. BGP Configuration:
-
-## Required Resources 
-
-
-## Instructions 
-
 **Step 3.1: Import the CSR1000v VM (csr1000v-universalk9.16.09.07.ova).**
 
 a. Open Oracle VirtualBox Manager or VMware Workstation. 
@@ -98,3 +86,7 @@ b. Enter `enable` for the privileged EXEC prompt. There is no enable password.
 ```text
 CSR1kv> enable
 CSR1kv#
+
+```text
+& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
+```
