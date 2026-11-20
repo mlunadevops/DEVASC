@@ -5,9 +5,11 @@
 
 ---
 
-[Proxmox Backup Server](https://www.proxmox.com/en/downloads/proxmox-backup-server)
+[Descarga OVA](https://ftp.radio-portal.su/index.php?folder=Cisco%2FVirtual%2FCSR1000v)
 
 ## 1. Introduction and Theoretical Framework
+
+This is a **Cisco software virtual** router deployed on a virtual machine (VM) instance on x86 server hardware. When the Cisco CSR 1000v is deployed on a VM, the Cisco IOS XE software functions as if it were deployed on a traditional Cisco hardware platform. You can configure different features depending on the Cisco IOS XE software image.
 
 # Objectives 
 Part 1: Install the CSR1000v VM on VirtualBox 
@@ -46,7 +48,7 @@ Run the following command in the terminal to install the JSON processor:
 
 #
 ## Background / Scenario 
-In this lab, you will install the CSR1000v Cloud Services Router. This is a Cisco software virtual router deployed on a virtual machine (VM) instance on x86 server hardware. When the Cisco CSR 1000v is deployed on a VM, the Cisco IOS XE software functions as if it were deployed on a traditional Cisco hardware platform. You can configure different features depending on the Cisco IOS XE software image. 
+In this lab, you will install the CSR1000v Cloud Services Router. 
 
 **Note:** The CSR1000v name will be shortened to CSR1kv in future labs. However, for this lab we use CSR1000v. 
 
