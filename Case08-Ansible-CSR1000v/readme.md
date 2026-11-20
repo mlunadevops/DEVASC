@@ -188,12 +188,20 @@ In VS Code, inside the **ansible-csr1000v folder**, create a new file named: **c
         dest: "ios_configurations/IPv6_output_{{ inventory_hostname }}.txt"
 ```
 
-**4.2)** Run the Playbook
+**4.2)**  Run the Playbook:
 In the terminal, create the output folder for this playbook:
 
 ```text
 mkdir ios_configurations
 ```
+
+```text
+ansible-playbook cisco_router_ipv6_config_playbook.yaml
+```
+
+**4.3)** Verificar la Configuración:
+
+El playbook guardó la salida del comando en un archivo. Puedes verificarlo con:
 
 **4.3)**Ejecuta el playbook:
 
