@@ -83,10 +83,7 @@ d. Click OK.
 
 **3.3)** VM Loading Process.**
 
-During the loading process you will see several messages including a message to Press any key to continue. You can ignore all of these messages. 
-A selection screen will appear where you can choose different configuration options. Do not choose any configuration options. Installation will continue on its own. 
-Wait for the initial installation process to complete. This will take several minutes the first time you boot the CSR1000v. 
-You will begin to see IOS messages from different processes including `%SSH`, `%PKI` and `%CRYPTO_ENGINE`. After a few minutes the messages will stop. 
+Start the VM. 
 
 a. Within the VM window, press Enter. 
 You should now see the prompt: `CSR1kv>`. 
