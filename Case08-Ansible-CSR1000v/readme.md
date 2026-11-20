@@ -49,6 +49,11 @@ The inventory file tells Ansible which devices to connect to.
 
 **2.1)** Open the file named hosts located inside ansible-csr1000v.
 
+```text
+# Enter the hosts or devices for Ansible playbooks
+CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.0.110
+```
+
 Add the following line (or make sure it looks like this):
 
 ![Archivo HOST](images/02Host.png)
