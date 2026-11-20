@@ -68,6 +68,10 @@ cd ..
 ansible --version
 ```
 
+![Ansible Version](images/02Ansible.png)
+
+
+
 ## Part 3: BGP Configuration:
 
 **Router:**
