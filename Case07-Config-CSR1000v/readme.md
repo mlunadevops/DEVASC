@@ -91,3 +91,6 @@ CSR1kv#
 ```text
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
 ```
+
+![Configuracion Adaptador](images/03ConfiguracionAdaptador.png)
+
