@@ -79,6 +79,18 @@ To avoid using Ansible's global configuration (/etc/ansible/), we are going to t
 cd ansible-csr1000v/
 ```
 
+**2.4)** Open the **ansible.cfg** file in VS Code and leave it exactly like this (replacing the previous content):
+
+```text
+# config file for ansible-csr1000v
+[defaults]
+# Use local hosts file in this folder
+inventory=./hosts
+host_key_checking = False
+retry_files_enabled = False
+deprecation_warnings = False
+```
+
 
 ## Part 3: BGP Configuration:
 
