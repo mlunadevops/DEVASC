@@ -85,6 +85,8 @@ d. Click OK.
 
 ![Configuracion Adaptador](images/03ConfiguracionAdaptador.png)
 
+![Configuracion Adaptador](images/03ConfiguracionAdaptador.png)
+
 **3.3)** VM Loading Process.**
 
 Start the VM. 
