@@ -161,6 +161,11 @@ cat backups/show_run_CSR1kv.txt
 In VS Code, inside the **ansible-csr1000v folder**, create a new file named: **cisco_router_ipv6_config_playbook.yaml**
 
 ```text
+nano cisco_router_ipv6_config_playbook.yaml
+```
+Inser the following code in the file **cisco_router_ipv6_config_playbook.yaml**
+
+```text
 ---
 - name: CONFIGURE IPv6 ADDRESSING
   hosts: CSR1kv
