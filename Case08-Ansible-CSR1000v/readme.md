@@ -122,3 +122,8 @@ Paste the following content (be careful with the space indentation!):
         content: "{{ config.stdout[0] }}"
         dest: "backups/show_run_{{ inventory_hostname }}.txt"
 ```
+
+**3.2)** Run the Playbook
+In the VS Code terminal, make sure you are in the ansible-csr1000v folder.
+
+Create the folder where the backup will be saved:
