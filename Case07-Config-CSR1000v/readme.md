@@ -32,20 +32,13 @@ Part 2: Verify Communications to CSR1000v VM
 
 ![Prerrequisitos](images/01requisitos.png)
 
+We need the following images:
+
 ![Imagenes](images/02Imagenes.png)
 
-
-1. **Proxmox VE Connected to PBS:** The PVE node must have the Proxmox Backup Server storage added to its configuration.
-2. **Dependency Installation (`jq`):** The JSON processor must be present on the base operating system.
-3. **Proxmox API Token:** An authentication token with administrator privileges is required to interact with the local API without needing plain-text passwords.
-
 ## 3. Implementation and Deployment Steps
-Follow these steps on any new Proxmox VE server to make the restoration script fully operational:
 
-### Step 1: Install the `jq` Dependency
-Run the following command in the terminal to install the JSON processor:
-
-**JQ Tool (pve shell)**
+**3.1)** Import the CSR1000v VM.
 
 ```text
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
@@ -60,6 +53,7 @@ Run the following command in the terminal to install the JSON processor:
 ## Instructions 
 
 **Step 3: Import the CSR1000v VM.**
+
 a. Open Oracle VirtualBox Manager or VMware Workstation. 
 b. Select File > Import in VirtualBox or File > Open in VMware. In VMware Workstation Player, select Player > File > Open. 
 c. In VirtualBox, select the file `CSR1000v_for_VirtualBox.ova` and click Open and Import. 
