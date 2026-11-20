@@ -12,10 +12,6 @@
 
 This is a **Cisco software virtual** router deployed on a virtual machine (VM) instance on x86 server hardware. When the Cisco CSR 1000v is deployed on a VM, the Cisco IOS XE software functions as if it were deployed on a traditional Cisco hardware platform. You can configure different features depending on the Cisco IOS XE software image. We will install the 
 
-- Host computer with at least 4 GB of RAM and 2 GB of free disk space 
-- Virtual Box or VMware 
-- DEVASC Virtual Machine 
-
 # Objectives 
 Part 1: Install the CSR1000v VM on VirtualBox 
 
@@ -24,6 +20,13 @@ Part 2: Verify Communications to CSR1000v VM
 ### Proxmox Backup Server (PBS):
 
 ## 2. Prerequisites
+
+
+- Host computer with at least 4 GB of RAM and 2 GB of free disk space 
+- Virtual Box or VMware 
+- DEVASC Virtual Machine
+- csr1000v-universalk9.16.09.07.ova
+
 
 ![BGP WEIGTH](images/01requisitos.png)
 
