@@ -144,10 +144,12 @@ ansible-playbook backup_cisco_router_playbook.yaml
 ```
 ![Playbook](images/04playbook.png)
 
-**3.4)** Verify the Backup:
+**3.4)** Verify the config have been saved in backup folders:
 
 You can open the backups folder in VS Code and you will see a file named show_run_CSR1kv.txt. Or you can view it from the terminal:
 
 ```text
 cat backups/show_run_CSR1kv.txt
 ```
+
+![Playbook](images/05show.png)
