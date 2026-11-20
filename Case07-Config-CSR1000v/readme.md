@@ -40,17 +40,19 @@ We need the following images:
 
 **3.1)** Import the CSR1000v VM **(csr1000v-universalk9.16.09.07.ova).**
 
-a. Open Oracle VirtualBox Manager or VMware Workstation. 
+a. Open Oracle VirtualBox Manager. 
 
 b. Select File > Import in VirtualBox or File > Open in VMware. In VMware Workstation Player, select Player > File > Open. 
 
 c. In VirtualBox, select the file **`csr1000v-universalk9.16.09.07.ova`** and click Open and Import. 
 
-In VMware, select the file `CSR1000v_for_VMware.ova` and click Open. 
+In VMware, select the file **`csr1000v-universalk9.16.09.07.ova`** and click Open. 
 
 d. Click Import. 
 
 e. You will now see the CSR1000v VM added to VirtualBox or VMware. 
+
+![Import OVA](images/04Importarova.png)
 
 
 **3.2)** Import the CSR1000v VM **(`csr1000v-universalk9.16.09.05.iso`)** esta es la plantilla de la VM.
