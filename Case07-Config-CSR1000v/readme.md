@@ -9,7 +9,7 @@
 
 ## 1. Introduction and Theoretical Framework
 
-This is a **Cisco software virtual** router deployed on a virtual machine (VM) instance on x86 server hardware. When the Cisco CSR 1000v is deployed on a VM, the Cisco IOS XE software functions as if it were deployed on a traditional Cisco hardware platform. You can configure different features depending on the Cisco IOS XE software image.
+This is a **Cisco software virtual** router deployed on a virtual machine (VM) instance on x86 server hardware. When the Cisco CSR 1000v is deployed on a VM, the Cisco IOS XE software functions as if it were deployed on a traditional Cisco hardware platform. You can configure different features depending on the Cisco IOS XE software image. We will install the 
 
 - Host computer with at least 4 GB of RAM and 2 GB of free disk space 
 - Virtual Box or VMware 
@@ -50,7 +50,9 @@ Run the following command in the terminal to install the JSON processor:
 
 #
 ## Background / Scenario 
-In this lab, you will install the CSR1000v Cloud Services Router. 
+In this lab, you will install the . 
+In this lab, you will install the . 
+In this lab, you will install the . 
 
 **Note:** The CSR1000v name will be shortened to CSR1kv in future labs. However, for this lab we use CSR1000v. 
 
