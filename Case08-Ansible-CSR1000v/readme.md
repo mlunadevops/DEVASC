@@ -126,6 +126,9 @@ Paste the following content **(backup_cisco_router_playbook.yaml)**:
         dest: "backups/show_run_{{ inventory_hostname }}.txt"
 ```
 
+![Playbook](images/04playbookcontent.png)
+
+
 **3.2)** Run the Playbook (In the VS Code terminal, backup_cisco_router_playbook.yaml):
 
 ```text
