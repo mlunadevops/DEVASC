@@ -44,6 +44,76 @@ ansible-csr1000v/
     └── IPv6_output_CSR1kv.txt
 ```
 
+Relación y Propósito de cada Archivo
+Aquí te explico qué hace cada pieza y cómo se conectan entre sí:
+
+1. hosts (El Diccionario de Dispositivos)
+¿Qué es? El archivo de inventario.
+
+Relación: Es la base de todo. Aquí declaras el alias CSR1kv y le asignas las credenciales (usuario, contraseña) y la dirección IP (ansible_host). Los playbooks leen este archivo para saber a dónde conectarse y cómo autenticarse.
+
+2. ansible.cfg (El Manual de Instrucciones de Ansible)
+¿Qué es? El archivo de configuración local.
+
+Relación: Le dice a Ansible cómo comportarse en esta carpeta específica.
+
+inventory=./hosts: Le indica que el inventario está en la misma carpeta (no en el global de Linux).
+
+host_key_checking = False: Evita que Ansible se bloquee pidiendo confirmación de huellas SSH.
+
+[persistent_connection]: (El que agregamos) Le da más tiempo de espera a los comandos.
+
+[paramiko_connection]: (El que agregamos) Le dice que use contraseñas y no busque llaves SSH locales.
+
+3. backup_cisco_router_playbook.yaml (El Playbook de Lectura)
+¿Qué es? El archivo YAML de la Parte 3.
+
+Relación:
+
+Llama a hosts: CSR1kv (lee el archivo hosts).
+
+Usa el módulo ios_command para leer el router (no modifica nada).
+
+Usa el módulo copy para volcar esa lectura en la carpeta backups/.
+
+Genera el archivo show_run_CSR1kv.txt.
+
+4. cisco_router_ipv6_config_playbook.yaml (El Playbook de Escritura)
+¿Qué es? El archivo YAML de la Parte 4.
+
+Relación:
+
+Llama a hosts: CSR1kv (lee el archivo hosts).
+
+Usa el módulo ios_config para modificar el router (aplica los comandos de IPv6).
+
+Usa el módulo ios_command para leer el resultado de la configuración (show ipv6 interface brief).
+
+Usa el módulo copy para guardar ese resultado en la carpeta ios_configurations/.
+
+Genera el archivo IPv6_output_CSR1kv.txt.
+
+5. Carpetas de Salida (backups/ e ios_configurations/)
+¿Qué son? Carpetas creadas manualmente con mkdir.
+
+Relación: Son los destinos (el parámetro dest:) que los playbooks utilizan para guardar los archivos de texto con la información extraída del router.
+
+🧠 Resumen del Flujo de Trabajo (Cómo interactúan)
+Abres la terminal en la carpeta ansible-csr1000v.
+
+Ejecutas ansible-playbook backup_cisco_router_playbook.yaml.
+
+Ansible lee el ansible.cfg (para saber cómo comportarse).
+
+Ansible lee el hosts (para obtener la IP y contraseña).
+
+El Playbook ejecuta los comandos en el router y guarda el archivo en backups/.
+
+Repites el proceso con el otro Playbook, que guarda la salida en ios_configurations/.
+
+
+
+
 ---
 
 ## Part 1: Start the VMs
