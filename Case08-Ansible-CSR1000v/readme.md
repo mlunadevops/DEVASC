@@ -36,7 +36,9 @@ Make sure your CSR1000v virtual machine is powered on (with the IP 192.168.0.110
 
 From the DEVASC VM terminal, verify connectivity by pinging the router:
 
-* **Local Scope:** It has meaning exclusively within the local router where it is configured and is not propagated via BGP routing updates to neighbors.
+```text
+ping 192.168.0.110
+```
 
 ## 2. Topology and BGP Neighbor Establishment
 
