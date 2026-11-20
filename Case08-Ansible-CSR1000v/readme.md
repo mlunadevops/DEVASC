@@ -43,7 +43,9 @@ From the DEVASC VM terminal, verify connectivity by pinging the router:
 ping 192.168.0.110
 ```
 
-## 2. Topology and BGP Neighbor Establishment
+## 2. Configure Ansible.
+
+
 
 
 
