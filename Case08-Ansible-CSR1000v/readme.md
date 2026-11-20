@@ -29,7 +29,7 @@ Use Ansible to Back Up and Configure a Device, objectives:
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
-
+```text
 ansible-csr1000v/
 │
 ├── ansible.cfg
@@ -42,6 +42,7 @@ ansible-csr1000v/
 │
 └── ios_configurations/
     └── IPv6_output_CSR1kv.txt
+```
 
 ---
 
