@@ -133,3 +133,11 @@ Create the folder where the backup will be saved:
 ```text
 ansible-playbook backup_cisco_router_playbook.yaml
 ```
+
+**3.5)** Verify the Backup:
+
+You can open the backups folder in VS Code and you will see a file named show_run_CSR1kv.txt. Or you can view it from the terminal:
+
+```text
+cat backups/show_run_CSR1kv.txt
+```
