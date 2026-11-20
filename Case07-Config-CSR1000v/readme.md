@@ -33,7 +33,7 @@ Part 2: Verify Communications to CSR1000v VM
 ![BGP WEIGTH](images/01requisitos.png)
 
 
-Before deploying and executing the script on any new Proxmox VE server, ensure the following requirements are met:
+
 1. **Proxmox VE Connected to PBS:** The PVE node must have the Proxmox Backup Server storage added to its configuration.
 2. **Dependency Installation (`jq`):** The JSON processor must be present on the base operating system.
 3. **Proxmox API Token:** An authentication token with administrator privileges is required to interact with the local API without needing plain-text passwords.
@@ -69,27 +69,6 @@ In this lab, you will install the .
 
 
 ## Instructions 
-
-### Part 1: Install the CSR 1000v VM 
-Install the CSR1000v VM directly on your x86 computer. It requires at least 4GB of RAM. 
-
-**Step 1: Instructor only: Download the CSR1000v ISO file.** 
-**Note:** Only the instructor or anyone with proper credentials is allowed to download ISO files from Cisco. This step must be done by the instructor. 
-
-a.
-
-**Note:** To download software from cisco.com, you must be an active NetAcad instructor and have a CCO account with the activated NetAcad Maintenance contract. 
-
-b. Select the download icon to the right of the following file: 
-Cisco CSR1000V IOS XE Universal - CRYPTO ISO 
-`csr1000v-universalk9.16.09.05.iso` 
-
-c. The instructor may now distribute this ISO to students to use in the DevNet Associate course only. 
-
-**Step 2: Download the CSR1000v VM OVA file.** 
-
-a. Download the `DEVASC_CSR1000v.zip` from the course resources and note the location of file. 
-b. This file contains both the VirtualBox and VMware template files. Unzip the file to access the VMs.
 
 **Step 3: Install the CSR1000v VM.**
 a. Open Oracle VirtualBox Manager or VMware Workstation. 
