@@ -29,6 +29,20 @@ Use Ansible to Back Up and Configure a Device, objectives:
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
+
+ansible-csr1000v/
+│
+├── ansible.cfg
+├── hosts
+├── backup_cisco_router_playbook.yaml
+├── cisco_router_ipv6_config_playbook.yaml
+│
+├── backups/
+│   └── show_run_CSR1kv.txt
+│
+└── ios_configurations/
+    └── IPv6_output_CSR1kv.txt
+
 ---
 
 ## Part 1: Start the VMs
