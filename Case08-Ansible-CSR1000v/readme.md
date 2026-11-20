@@ -43,18 +43,18 @@ From the DEVASC VM terminal, verify connectivity by pinging the router:
 ping 192.168.0.110
 ```
 
-## 2. Configure Ansible.
+## Part 2: Configure Ansible.
 
 The inventory file tells Ansible which devices to connect to.
 
-Open the file named hosts located inside ansible-csr1000v.
+**2.1)** Open the file named hosts located inside ansible-csr1000v.
 
 Add the following line (or make sure it looks like this):
 
 ![Archivo HOST](images/02Host.png)
 
 
-## 3. BGP Configuration:
+## Part 3: BGP Configuration:
 
 **Router:**
 
