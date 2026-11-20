@@ -52,13 +52,13 @@ We need the following images:
 
 ## Instructions 
 
-**Step 3: Import the CSR1000v VM.**
+**Step 3.1: Import the CSR1000v VM (csr1000v-universalk9.16.09.07.ova).**
 
 a. Open Oracle VirtualBox Manager or VMware Workstation. 
 
 b. Select File > Import in VirtualBox or File > Open in VMware. In VMware Workstation Player, select Player > File > Open. 
 
-c. In VirtualBox, select the file `CSR1000v_for_VirtualBox.ova` and click Open and Import. 
+c. In VirtualBox, select the file **`csr1000v-universalk9.16.09.07.ova`** and click Open and Import. 
 
 In VMware, select the file `CSR1000v_for_VMware.ova` and click Open. 
 
@@ -68,6 +68,19 @@ e. You will now see the CSR1000v VM added to VirtualBox or VMware.
 
 **Step 6: Start CSR1000v VM.**
 
+**Step 3.2: Import the CSR1000v VM.**
+
+Update the installation ISO location.**
+a. Select the Virtual Machine Settings or click Edit virtual machine settings. 
+b. In the VM Settings, go to the very first CD Drive setting. 
+- In VirtualBox: VM Settings > Storage > CD device (the first CD Drive in the list) 
+- In VMware: VM Settings > the first "CD/DVD (IDE)" Drive in the list 
+c. In the first CD Drive settings, replace the currently used ISO file 
+- In VirtualBox: Attributes > CD icon > Choose a disk file ... 
+- In VMware: Next to "Use ISO image file", click Browse. 
+d. Select the ISO file you received from your instructor in Step 1. 
+At the time this lab was written, the file name was `csr1000v-universalk9.16.09.05.iso`. However, the version (16.09.05) may have changed, altering the file name. 
+e. Do NOT change the Second CD Drive settings. That is used for the initial configuration of the router. 
 
 c. Verify the following: 
 Adapter 1 - Attached to: Host-only Adapter 
