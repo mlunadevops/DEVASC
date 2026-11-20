@@ -32,7 +32,7 @@ Use Ansible to Back Up and Configure a Device, objectives:
 
 Make sure your DEVASC virtual machine is powered on and running.
 
-Make sure your CSR1000v virtual machine is powered on (with the IP 192.168.56.101 or whichever one your network has assigned to it).
+Make sure your CSR1000v virtual machine is powered on (with the IP 192.168.0.110 or whichever one your network has assigned to it).
 
 From the DEVASC VM terminal, verify connectivity by pinging the router:
 
