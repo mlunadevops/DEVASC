@@ -71,6 +71,14 @@ ansible --version
 ![Ansible Version](images/02Ansible.png)
 
 
+**2.3)** Configure the local **ansible.cfg** file
+
+To avoid using Ansible's global configuration (/etc/ansible/), we are going to tell Ansible to use the files in our current folder.
+
+```text
+cd ansible-csr1000v/
+```
+
 
 ## Part 3: BGP Configuration:
 
