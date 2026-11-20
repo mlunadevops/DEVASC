@@ -97,12 +97,15 @@ deprecation_warnings = False
 
 **3.1)** Use Ansible to Back Up the Configuration:
 
-Step 1: Create the Backup Playbook
+**3.1.1)** Create the Backup Playbook
+
 In VS Code, inside the **ansible-csr1000v** folder, create a new file named: **backup_cisco_router_playbook.yaml**
 
-Paste the following content (be careful with the space indentation!):
+```text
+nano backup_cisco_router_playbook.yaml
+```
 
-**Router:**
+Paste the following content **(backup_cisco_router_playbook.yaml)**:
 
 ```text
 ---
@@ -123,8 +126,11 @@ Paste the following content (be careful with the space indentation!):
         dest: "backups/show_run_{{ inventory_hostname }}.txt"
 ```
 
-**3.2)** Run the Playbook
-In the VS Code terminal, make sure you are in the **ansible-csr1000v folder.**
+**3.2)** Run the Playbook (In the VS Code terminal, backup_cisco_router_playbook.yaml):
+
+```text
+mkdir backups
+```
 
 **3.4)** Run the playbook:
 
@@ -134,8 +140,6 @@ Create the folder where the backup will be saved:
 ansible-playbook backup_cisco_router_playbook.yaml
 ```
 ![Playbook](images/04playbook.png)
-
-
 
 **3.5)** Verify the Backup:
 
