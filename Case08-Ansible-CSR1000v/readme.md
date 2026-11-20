@@ -25,6 +25,7 @@ Use Ansible to Back Up and Configure a Device, objectives:
 **Part 3**: Use Ansible to back up the configuration.
 
 **Part 4:** Use Ansible to configure a device (IPv6).
+
 ---
 
 ## Parte 1: Iniciar las VMs
