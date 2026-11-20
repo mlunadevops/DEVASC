@@ -156,10 +156,36 @@ cat backups/show_run_CSR1kv.txt
 
 **Part 4:** Use Ansible to configure a device (IPv6).
 
-**4.1)** Use Ansible to Configure IPv6 on the Device
-
-Step 1: Create the Configuration Playbook:
+**4.1)** Use Ansible to Configure IPv6 on the Device (Create the Configuration Playbook):
 
 In VS Code, inside the **ansible-csr1000v folder**, create a new file named: **cisco_router_ipv6_config_playbook.yaml**
+
+```text
+---
+- name: CONFIGURE IPv6 ADDRESSING
+  hosts: CSR1kv
+  gather_facts: false
+  connection: local
+
+  tasks:
+    - name: SET IPv6 ADDRESS
+      ios_config:
+        parents: "interface GigabitEthernet1"
+        lines:
+          - description IPv6 ADDRESS
+          - ipv6 address 2001:DB8:ACAD:1::1/64
+          - ipv6 address FE80::1:1 link-local
+
+    - name: SHOW IPv6 INTERFACE BRIEF
+      ios_command:
+        commands:
+          - show ipv6 interface brief
+      register: output
+
+    - name: SAVE OUTPUT ./ios_configurations/
+      copy:
+        content: "{{ output.stdout[0] }}"
+        dest: "ios_configurations/IPv6_output_{{ inventory_hostname }}.txt"
+```
 
 
