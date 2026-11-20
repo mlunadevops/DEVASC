@@ -5,18 +5,20 @@
 
 ---
 
-[Descarga OVA](https://ftp.radio-portal.su/index.php?folder=Cisco%2FVirtual%2FCSR1000v)
+[OVA Download](https://ftp.radio-portal.su/index.php?folder=Cisco%2FVirtual%2FCSR1000v)
 
 ## 1. Introduction and Theoretical Framework
 
 This is a **Cisco software virtual** router deployed on a virtual machine (VM) instance on x86 server hardware. When the Cisco CSR 1000v is deployed on a VM, the Cisco IOS XE software functions as if it were deployed on a traditional Cisco hardware platform. You can configure different features depending on the Cisco IOS XE software image.
 
+- Host computer with at least 4 GB of RAM and 2 GB of free disk space 
+- Virtual Box or VMware 
+- DEVASC Virtual Machine 
+
 # Objectives 
 Part 1: Install the CSR1000v VM on VirtualBox 
 
 Part 2: Verify Communications to CSR1000v VM 
-
-
 
 ### Proxmox Backup Server (PBS):
 
@@ -53,9 +55,7 @@ In this lab, you will install the CSR1000v Cloud Services Router.
 **Note:** The CSR1000v name will be shortened to CSR1kv in future labs. However, for this lab we use CSR1000v. 
 
 ## Required Resources 
-- Host computer with at least 4 GB of RAM and 2 GB of free disk space 
-- Virtual Box or VMware 
-- DEVASC Virtual Machine 
+
 
 ## Instructions 
 
