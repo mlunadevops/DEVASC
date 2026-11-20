@@ -14,6 +14,7 @@
 
 [Google](https://www.google.com)
 
+
 ## 1. Introduction and Theoretical Framework
 
 Use Ansible to Back Up and Configure a Device, objectives:
@@ -25,6 +26,8 @@ Use Ansible to Back Up and Configure a Device, objectives:
 **Part 3**: Use Ansible to back up the configuration.
 
 **Part 4:** Use Ansible to configure a device (IPv6).
+
+![BGP WEIGTH](images/01Topologia.jpg)
 
 ---
 
@@ -42,11 +45,7 @@ ping 192.168.0.110
 
 ## 2. Topology and BGP Neighbor Establishment
 
-The topology.
 
-![BGP WEIGTH](images/01Topologia.jpg)
-
- four routers across different Autonomous Systems (AS 100, AS 200, AS 300, and AS 400). Before advertising prefixes, BGP neighbor adjacencies were established on each device.
 
 ## 3. BGP Configuration:
 
