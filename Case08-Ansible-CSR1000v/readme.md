@@ -133,6 +133,9 @@ Create the folder where the backup will be saved:
 ```text
 ansible-playbook backup_cisco_router_playbook.yaml
 ```
+![Playbook](images/04playbook.png)
+
+
 
 **3.5)** Verify the Backup:
 
