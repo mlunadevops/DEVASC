@@ -98,7 +98,7 @@ deprecation_warnings = False
 **3.1)** Use Ansible to Back Up the Configuration:
 
 Step 1: Create the Backup Playbook
-In VS Code, inside the **ansible-csr1000v** folder, create a new file named: backup_cisco_router_playbook.yaml
+In VS Code, inside the **ansible-csr1000v** folder, create a new file named: **backup_cisco_router_playbook.yaml**
 
 Paste the following content (be careful with the space indentation!):
 
