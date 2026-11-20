@@ -86,22 +86,27 @@ At the time this lab was written, the file name was **`csr1000v-universalk9.16.0
 
 **3.4)**Disable Hyper-V. in order to Virtualbox run successfully**
 
+**3.4.1)** Deshabilitar la característica Hyper-V (incluye todas las subcaracterísticas)
+
 ```text
-# 1. Deshabilitar la característica Hyper-V (incluye todas las subcaracterísticas)
 Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -NoRestart
 ```
 
+**3.4.2)** Deshabilitar la plataforma de máquina virtual (VirtualMachinePlatform)
+
 ```text
-# 2. Deshabilitar la plataforma de máquina virtual (VirtualMachinePlatform)
 Disable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart
 ```
 
-```text
-# 3. Deshabilitar el subsistema de Windows para Linux (opcional, pero usualmente también depende de Hyper-V)
-Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -NoRestart
+**3.4.3)** Deshabilitar el subsistema de Windows para Linux (opcional, pero usualmente también depende de Hyper-V)
 
 ```text
-# 4. Clave: desactivar el inicio del hipervisor Hyper-V a nivel de arranque
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -NoRestart
+```
+
+**3.4.4)**  desactivar el inicio del hipervisor Hyper-V a nivel de arranque
+ 
+```text
 bcdedit /set hypervisorlaunchtype off
 ```
 
