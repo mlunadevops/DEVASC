@@ -69,8 +69,7 @@ c. In the first CD Drive settings, replace the currently used ISO file
 - In VMware: Next to "Use ISO image file", click Browse.
   
 d. Select the ISO file you received from your instructor in Step 1. 
-At the time this lab was written, the file name was **`csr1000v-universalk9.16.09.05.iso`**. However, the version (16.09.05) may have changed, altering the file name. 
-e. Do NOT change the Second CD Drive settings. That is used for the initial configuration of the router. 
+At the time this lab was written, the file name was **`csr1000v-universalk9.16.09.05.iso`**. 
 
 c. Verify the following: 
 Adapter 1 - Attached to: Host-only Adapter 
