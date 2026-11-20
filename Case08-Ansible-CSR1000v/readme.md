@@ -204,6 +204,9 @@ mkdir ios_configurations
 ansible-playbook cisco_router_ipv6_config_playbook.yaml
 ```
 
+![Playbook](images/06ipv6.png)
+
+
 **4.3)** Verificar la Configuración:
 
 El playbook guardó la salida del comando en un archivo. Puedes verificarlo con:
