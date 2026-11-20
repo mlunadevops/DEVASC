@@ -126,8 +126,10 @@ Paste the following content (be careful with the space indentation!):
 **3.2)** Run the Playbook
 In the VS Code terminal, make sure you are in the **ansible-csr1000v folder.**
 
+**3.4)** Run the playbook:
+
 Create the folder where the backup will be saved:
 
 ```text
-mkdir backups
+ansible-playbook backup_cisco_router_playbook.yaml
 ```
