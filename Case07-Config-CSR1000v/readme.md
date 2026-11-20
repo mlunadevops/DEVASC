@@ -75,7 +75,14 @@ c. Verify the following:
 Adapter 1 - Attached to: Host-only Adapter 
 d. Click OK. 
 
-**Step 7: VM Loading Process.**
+```text
+& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
+```
+
+![Configuracion Adaptador](images/03ConfiguracionAdaptador.png)
+
+**3.3)** VM Loading Process.**
+
 During the loading process you will see several messages including a message to Press any key to continue. You can ignore all of these messages. 
 A selection screen will appear where you can choose different configuration options. Do not choose any configuration options. Installation will continue on its own. 
 Wait for the initial installation process to complete. This will take several minutes the first time you boot the CSR1000v. 
@@ -84,13 +91,8 @@ You will begin to see IOS messages from different processes including `%SSH`, `%
 a. Within the VM window, press Enter. 
 You should now see the prompt: `CSR1kv>`. 
 b. Enter `enable` for the privileged EXEC prompt. There is no enable password. 
+
 ```text
 CSR1kv> enable
 CSR1kv#
-
-```text
-& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
 ```
-
-![Configuracion Adaptador](images/03ConfiguracionAdaptador.png)
-
