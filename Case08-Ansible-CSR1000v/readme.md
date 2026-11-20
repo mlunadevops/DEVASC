@@ -153,3 +153,13 @@ cat backups/show_run_CSR1kv.txt
 ```
 
 ![Playbook](images/05show.png)
+
+**Part 4:** Use Ansible to configure a device (IPv6).
+
+**4.1)** Use Ansible to Configure IPv6 on the Device
+
+Step 1: Create the Configuration Playbook:
+
+In VS Code, inside the **ansible-csr1000v folder**, create a new file named: **cisco_router_ipv6_config_playbook.yaml**
+
+
