@@ -25,6 +25,9 @@ Part 2: Verify Communications to CSR1000v VM
 
 ## 2. Prerequisites
 
+![BGP WEIGTH](images/01requisitos.png)
+
+
 Before deploying and executing the script on any new Proxmox VE server, ensure the following requirements are met:
 1. **Proxmox VE Connected to PBS:** The PVE node must have the Proxmox Backup Server storage added to its configuration.
 2. **Dependency Installation (`jq`):** The JSON processor must be present on the base operating system.
@@ -41,7 +44,7 @@ Run the following command in the terminal to install the JSON processor:
 ```text
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
 ```
-![BGP WEIGTH](images/01Topologia.jpg)
+
  
 ### 4. BGP Configuration:
 
