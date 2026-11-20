@@ -46,7 +46,7 @@ ping 192.168.0.110
 ## 2. Configure Ansible.
 
 
-
+![Archivo HOST](images/02Host.png)
 
 
 ## 3. BGP Configuration:
