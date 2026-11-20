@@ -25,7 +25,7 @@ Part 2: Verify Communications to CSR1000v VM
 - Host computer with at least 4 GB of RAM and 2 GB of free disk space 
 - Virtual Box or VMware 
 - DEVASC Virtual Machine
-- csr1000v-universalk9.16.09.07.ova
+- [csr1000v-universalk9.16.09.07.ova](https://ftp.radio-portal.su/index.php?folder=Cisco%2FVirtual%2FCSR1000v) 
 
 
 ![BGP WEIGTH](images/01requisitos.png)
