@@ -75,6 +75,10 @@ At the time this lab was written, the file name was **`csr1000v-universalk9.16.0
 
 ![Almacenamiento](images/05Almacenamiento.png)
 
+![Configuracion Adaptador](images/05Discoptico.png)
+
+
+
 c. Verify the following: 
 Adapter 1 - Attached to: Host-only Adapter 
 d. Click OK. 
@@ -83,9 +87,6 @@ d. Click OK.
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "com.cisco.csr1000v" --nictype1 virtio
 ```
 
-![Configuracion Adaptador](images/03ConfiguracionAdaptador.png)
-
-![Configuracion Adaptador](images/03ConfiguracionAdaptador.png)
 
 **3.3)** VM Loading Process.**
 
