@@ -88,6 +88,14 @@ ansible webservers -m command -a "/bin/echo hello world"
 
 **Expected result:** It should return hello world in the output section.
 
+**3.7)** Probar ejecución de comandos (módulo command)
+
+Ejecuta un comando simple en el servidor remoto (que en este caso es tu misma VM):
+
+```bash
+ansible webservers -m command -a "/bin/echo hello world"
+Resultado esperado: Debería devolver hello world en la sección de salida.
+```
 
 ### 4. BGP Configuration:
 
