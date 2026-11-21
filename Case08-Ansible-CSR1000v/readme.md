@@ -56,10 +56,9 @@ CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.56.101
 CSR2kv ansible_user=admin ansible_password=OtraClave123! ansible_host=192.168.56.102
 ```
 
-
 **2. ansible.cfg (Ansible's Instruction Manual):** Configures Ansible's behavior in it`s folder **(inventory path, timeout, etc.)**, for example:
 
-**inventory=./hosts:** It tells Ansible that the inventory is in the same folder (not in the Linux global location).
+**inventory=./hosts:** It tells Ansible that the inventory file **(hosts)** is in the same folder (not in the Linux global location).
 
 **host_key_checking = False:** Prevents Ansible from getting stuck asking for SSH fingerprint confirmation.
 
