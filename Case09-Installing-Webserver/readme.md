@@ -48,6 +48,10 @@ We will work inside the ansible-apache folder.
 
 Open the hosts file inside ansible-apache.
 
+![ANSIBLE HOST](images/01hosts.png)
+
+
+
 [webservers]
 
 ```text
