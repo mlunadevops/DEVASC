@@ -98,7 +98,7 @@ Paso 1: Crear Playbook de prueba
 
 ### 4. Create Playbooks to Automate the Installation of Apache:
 
-Step 4.1: Create a test Playbook
+**4.1)** Create a test Playbook
 
 ```bash
 ---
@@ -106,4 +106,12 @@ Step 4.1: Create a test Playbook
   tasks:
     - name: run echo command
       command: /bin/echo hello world
+```
+
+**4.2)** Run the test Playbook
+
+In the terminal, run:
+
+```bash
+ansible-playbook -v test_apache_playbook.yaml
 ```
