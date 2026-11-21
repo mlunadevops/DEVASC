@@ -49,7 +49,7 @@ ansible-csr1000v/
 **Relationship and Purpose of Each File:**
 
 
-**1. hosts (El Diccionario de Dispositivos):** Contains the devices **(IPs)** and their credentials **(username, password)** the **playbooks** read this file to know where to connect and how to authenticate., for example:
+**1. hosts (El Diccionario de Dispositivos):** Contains the devices **(IPs)** and their credentials **(username, password)** the **playbooks** read this file to know where to connect and how to authenticate., These are the **SSH** credentials used to connect to each device, host`s file content example:
 
 ```text
 CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.56.101
