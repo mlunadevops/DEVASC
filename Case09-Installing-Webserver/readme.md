@@ -15,11 +15,15 @@
 
 ## 1. Introduction and Theoretical Framework
 
-- **Parte 1:** Iniciar la VM DEVASC.
-- **Parte 2:** Configurar Ansible (Inventario y Configuración).
-- **Parte 3:** Verificar la comunicación con el Servidor Web Local.
-- **Parte 4:** Crear Playbooks para automatizar la instalación de Apache.
-- **Parte 5:** Agregar opciones al Playbook (Cambiar el puerto a 8081).
+**Part 1:** Start the DEVASC VM.
+
+Part 2: Configure Ansible (Inventory and Configuration).
+
+Part 3: Verify communication with the Local Web Server.
+
+Part 4: Create Playbooks to automate the installation of Apache.
+
+Part 5: Add options to the Playbook (Change the port to 8081).
 
 
 
@@ -33,6 +37,7 @@ The topology consists of four routers across different Autonomous Systems (AS 10
 
 ## 3. ANSIBLE IMPLEMENTACION:
 
+**3.1)** Configurar Ansible (Inventario y Configuración):
 
 
 **Router:**
