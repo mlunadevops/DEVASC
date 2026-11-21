@@ -49,16 +49,13 @@ ansible-csr1000v/
 **Relationship and Purpose of Each File:**
 
 
-**1. hosts (El Diccionario de Dispositivos):** Contains the devices **(IPs)** and their credentials **(username, password)**, for example:
+**1. hosts (El Diccionario de Dispositivos):** Contains the devices **(IPs)** and their credentials **(username, password)** the **playbooks** read this file to know where to connect and how to authenticate., for example:
 
 ```text
 CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.56.101
 CSR2kv ansible_user=admin ansible_password=OtraClave123! ansible_host=192.168.56.102
 ```
 
-
-
-Relación: Es la base de todo. Aquí declaras el alias CSR1kv y le asignas las credenciales (usuario, contraseña) y la dirección IP (ansible_host). Los playbooks leen este archivo para saber a dónde conectarse y cómo autenticarse.
 
 2. ansible.cfg (El Manual de Instrucciones de Ansible): El archivo de configuración local.Relación: Le dice a Ansible cómo comportarse en esta carpeta específica.
 
