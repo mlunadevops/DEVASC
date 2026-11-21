@@ -16,14 +16,13 @@
 ## 1. Introduction and Theoretical Framework
 
 **Part 1:** Start the DEVASC VM.
+**Part 2:** Configure Ansible (Inventory and Configuration).
 
-Part 2: Configure Ansible (Inventory and Configuration).
+**Part 3:** Verify communication with the Local Web Server.
 
-Part 3: Verify communication with the Local Web Server.
+**Part 4:** Create Playbooks to automate the installation of Apache.
 
-Part 4: Create Playbooks to automate the installation of Apache.
-
-Part 5: Add options to the Playbook (Change the port to 8081).
+**Part 5**: Add options to the Playbook (Change the port to 8081).
 
 
 
