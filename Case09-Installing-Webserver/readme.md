@@ -79,6 +79,8 @@ ansible webservers -m ping
 ```
 **Expected result:** You should see a "ping": "pong" and SUCCESS.
 
+![ANSIBLE WEBSERVER ping](images/02ansibleWebping.png)
+
 **3.6)** Test command execution (command module)
 Run a simple command on the remote server (which in this case is your own VM):
 
