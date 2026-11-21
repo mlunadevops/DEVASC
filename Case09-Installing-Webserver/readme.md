@@ -145,3 +145,12 @@ Create the file **install_apache_playbook.yaml** and paste this:
 ansible-playbook -v install_apache_playbook.yaml
 ```
 ![ANSIBLE playbook](images/03playbook.png)
+
+**4.5)** Run and Verify
+Run the playbook in your terminal. Note: This step may take a while (between 30 seconds and a few minutes) because Ansible will download the Apache package from the Ubuntu repositories and install it.
+
+```bash
+ansible-playbook -v install_apache_playbook.yaml
+```
+![ANSIBLE playbook](images/04playbook.png)
+
