@@ -29,7 +29,7 @@ Use Ansible to Back Up and Configure a Device, objectives:
 
 **Part 4:** Use Ansible to configure a device (IPv6).
 
-![BGP WEIGTH](images/01Topologia.jpg)
+![Topologia](images/01Topologia.jpg)
 
 ```text
 ansible-csr1000v/
@@ -93,6 +93,11 @@ Usa el módulo copy para volcar esa lectura en la carpeta backups/.
 Genera el archivo show_run_CSR1kv.txt.
 
 4. cisco_router_ipv6_config_playbook.yaml (El Playbook de Escritura)
+
+![Secuencia Playbook](images/07Relacion.jpg)
+
+
+   
 ¿Qué es? El archivo YAML de la Parte 4.
 
 Relación:
