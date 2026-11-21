@@ -203,3 +203,5 @@ Run the playbook in your terminal. This time we won't use -v so the output is cl
 ```bash
 ansible-playbook install_apache_options_playbook.yaml
 ```
+
+![ANSIBLE playbook](images/05playbook.png)
