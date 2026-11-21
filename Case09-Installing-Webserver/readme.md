@@ -93,12 +93,17 @@ ansible webservers -m command -a "/bin/echo hello world"
 
 **3.7)** Probar ejecución de comandos (módulo command)
 
-Ejecuta un comando simple en el servidor remoto (que en este caso es tu misma VM):
+Parte 4: Crear Playbooks para Automatizar la Instalación de Apache
+Paso 1: Crear Playbook de prueba
+
+### 4. Create Playbooks to Automate the Installation of Apache:
+
+Step 4.1: Create a test Playbook
 
 ```bash
-ansible webservers -m command -a "/bin/echo hello world"
-Resultado esperado: Debería devolver hello world en la sección de salida.
+---
+- hosts: webservers
+  tasks:
+    - name: run echo command
+      command: /bin/echo hello world
 ```
-
-### 4. BGP Configuration:
-
