@@ -62,7 +62,7 @@ CSR2kv ansible_user=admin ansible_password=OtraClave123! ansible_host=192.168.56
 
 **host_key_checking = False:** Prevents Ansible from getting stuck asking for SSH fingerprint confirmation.
 
-**[persistent_connection]:** (the one we added) Gives commands more waiting time.
+**[persistent_connection]:** Gives commands more waiting time at execution **(60 seconds)**.
 
 ```text
 # Add to this file for the Ansible lab
