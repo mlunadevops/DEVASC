@@ -154,3 +154,46 @@ ansible-playbook -v install_apache_playbook.yaml
 ```
 ![ANSIBLE playbook](images/04playbook.png)
 
+### 5. Create Playbooks to Automate the Installation of Apache:
+
+Create the new Playbook
+In VS Code, inside the ansible-apache folder, create a new file named: **install_apache_options_playbook.yaml**
+
+Copy and paste the following content exactly (be very careful with the indentation):
+
+```bash
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: INSTALL APACHE2
+      apt: name=apache2 update_cache=yes state=latest
+
+    - name: ENABLED MOD_REWRITE
+      apache2_module: name=rewrite state=present
+      notify:
+        - RESTART APACHE2
+
+    - name: APACHE2 LISTEN ON PORT 8081
+      lineinfile: 
+        dest: /etc/apache2/ports.conf 
+        regexp: "^Listen 80" 
+        line: "Listen 8081" 
+        state: present
+      notify:
+        - RESTART APACHE2
+
+    - name: APACHE2 VIRTUALHOST ON PORT 8081
+      lineinfile: 
+        dest: /etc/apache2/sites-available/000-default.conf
+        regexp: "^<VirtualHost \\*:80>" 
+        line: "<VirtualHost *:8081>" 
+        state: present
+      notify:
+        - RESTART APACHE2
+
+  handlers:
+    - name: RESTART APACHE2
+      service: name=apache2 state=restarted
+```
+
