@@ -72,6 +72,21 @@ host_key_checking = False
 retry_files_enabled = False
 ```
 
+**3.5)** Verify Communications with the Local Web Server: Test connection with the ping module, from the VS Code terminal, make sure you are in the ansible-apache folder and run:
+
+```bash
+ansible webservers -m ping
+```
+**Expected result:** You should see a "ping": "pong" and SUCCESS.
+
+**3.6)** Test command execution (command module)
+Run a simple command on the remote server (which in this case is your own VM):
+
+```bash
+ansible webservers -m command -a "/bin/echo hello world"
+```
+
+**Expected result:** It should return hello world in the output section.
 
 
 ### 4. BGP Configuration:
