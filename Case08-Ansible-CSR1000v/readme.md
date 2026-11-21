@@ -57,7 +57,7 @@ CSR2kv ansible_user=admin ansible_password=OtraClave123! ansible_host=192.168.56
 ```
 
 
-2. ansible.cfg (El Manual de Instrucciones de Ansible): El archivo de configuración local.Relación: Le dice a Ansible cómo comportarse en esta carpeta específica.
+**2. ansible.cfg (Ansible's Instruction Manual):** Configures Ansible's behavior in it`s folder **(inventory path, timeout, etc.)**, for example:
 
 ```text
 # Add to this file for the Ansible lab
