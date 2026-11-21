@@ -50,8 +50,6 @@ Open the hosts file inside ansible-apache.
 
 ![ANSIBLE HOST](images/01hosts.png)
 
-
-
 [webservers]
 
 ```text
@@ -59,8 +57,14 @@ Open the hosts file inside ansible-apache.
 192.0.2.3 ansible_ssh_user=devasc ansible_ssh_pass=Cisco123!
 ```
 
+**3.4)** Edit the ansible.cfg file
+Open the ansible.cfg file inside ansible-apache.
 
+Modify it so that it looks exactly like this:
 
+```text
+
+```
 
 
 
