@@ -156,7 +156,7 @@ ansible-playbook -v install_apache_playbook.yaml
 
 ### 5. Create Playbooks to Automate the Installation of Apache:
 
-Create the new Playbook
+**5.1)** Create the new Playbook
 In VS Code, inside the ansible-apache folder, create a new file named: **install_apache_options_playbook.yaml**
 
 Copy and paste the following content exactly (be very careful with the indentation):
@@ -197,3 +197,9 @@ Copy and paste the following content exactly (be very careful with the indentati
       service: name=apache2 state=restarted
 ```
 
+**5.2)** Run the Playbook
+Run the playbook in your terminal. This time we won't use -v so the output is cleaner:
+
+```bash
+ansible-playbook install_apache_options_playbook.yaml
+```
