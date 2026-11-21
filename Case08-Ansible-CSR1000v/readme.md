@@ -78,11 +78,8 @@ deprecation_warnings = False
 [persistent_connection]
 command_timeout = 60
 ```
-[persistent_connection]: (El que agregamos) Le da más tiempo de espera a los comandos.
 
-[paramiko_connection]: (El que agregamos) Le dice que use contraseñas y no busque llaves SSH locales.
-
-3. backup_cisco_router_playbook.yaml (El Playbook de Lectura)
+**3. backup_cisco_router_playbook.yaml (El Playbook de Lectura):**
 ¿Qué es? El archivo YAML de la Parte 3.
 
 Relación:
