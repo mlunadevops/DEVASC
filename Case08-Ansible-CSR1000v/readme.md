@@ -50,12 +50,29 @@ Aquí te explico qué hace cada pieza y cómo se conectan entre sí:
 1. hosts (El Diccionario de Dispositivos)
 ¿Qué es? El archivo de inventario.
 
+```text
+
+```
 Relación: Es la base de todo. Aquí declaras el alias CSR1kv y le asignas las credenciales (usuario, contraseña) y la dirección IP (ansible_host). Los playbooks leen este archivo para saber a dónde conectarse y cómo autenticarse.
 
-2. ansible.cfg (El Manual de Instrucciones de Ansible)
-¿Qué es? El archivo de configuración local.
+2. ansible.cfg (El Manual de Instrucciones de Ansible): El archivo de configuración local.Relación: Le dice a Ansible cómo comportarse en esta carpeta específica.
 
-Relación: Le dice a Ansible cómo comportarse en esta carpeta específica.
+```text
+# Add to this file for the Ansible lab
+# config file for ansible-csr1000v
+[defaults]
+# Use local hosts file in this folder
+inventory=./hosts
+host_key_checking = False
+retry_files_enabled = False
+deprecation_warnings = False
+
+
+[persistent_connection]
+command_timeout = 60
+```
+
+
 
 inventory=./hosts: Le indica que el inventario está en la misma carpeta (no en el global de Linux).
 
