@@ -85,8 +85,9 @@ Run a simple command on the remote server (which in this case is your own VM):
 ```bash
 ansible webservers -m command -a "/bin/echo hello world"
 ```
-
 **Expected result:** It should return hello world in the output section.
+
+![ANSIBLE WEBSERVER](images/01ansiblewebserver.png)
 
 **3.7)** Probar ejecución de comandos (módulo command)
 
