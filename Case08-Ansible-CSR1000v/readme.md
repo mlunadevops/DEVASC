@@ -17,6 +17,8 @@
 
 ## 1. Introduction and Theoretical Framework
 
+
+
 Use Ansible to Back Up and Configure a Device, objectives:
 
 **Part 1:** Start the DEVASC VM and the CSR1000v VM.
@@ -47,11 +49,11 @@ ansible-csr1000v/
 Relación y Propósito de cada Archivo
 Aquí te explico qué hace cada pieza y cómo se conectan entre sí:
 
-1. hosts (El Diccionario de Dispositivos)
-¿Qué es? El archivo de inventario.
+1. hosts (El Diccionario de Dispositivos): Contiene los dispositivos (IPs) y sus credenciales(usuario,clave), ejemplo:
 
 ```text
-
+CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.56.101
+CSR2kv ansible_user=admin ansible_password=OtraClave123! ansible_host=192.168.56.102
 ```
 Relación: Es la base de todo. Aquí declaras el alias CSR1kv y le asignas las credenciales (usuario, contraseña) y la dirección IP (ansible_host). Los playbooks leen este archivo para saber a dónde conectarse y cómo autenticarse.
 
