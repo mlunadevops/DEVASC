@@ -80,19 +80,6 @@ command_timeout = 60
 ```
 
 **3. backup_cisco_router_playbook.yaml (El Playbook de Lectura):** They contain the tasks to be executed.
-¿Qué es? El archivo YAML de la Parte 3.
-
-Relación:
-
-Llama a hosts: CSR1kv (lee el archivo hosts).
-
-Usa el módulo ios_command para leer el router (no modifica nada).
-
-Usa el módulo copy para volcar esa lectura en la carpeta backups/.
-
-Genera el archivo show_run_CSR1kv.txt.
-
-4. cisco_router_ipv6_config_playbook.yaml (El Playbook de Escritura)
 
 ![Secuencia Playbook](images/07Relacion.jpg)
 
