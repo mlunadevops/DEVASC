@@ -1,11 +1,11 @@
-# TECHNICAL LOG & BGP ENGINEERING GUIDE
+# TECHNICAL LOG & ANSIBLE WEB SERVER
 
-## Traffic Manipulation via the Weight Attribute
+## ANSIBLE
 **CCNP Miguelangel Luna**
 
 ---
 
-## CONTENIDOS:
+## CONTENT:
 
 | Case | Title | Description |
 | :--- | :--- | :--- |
