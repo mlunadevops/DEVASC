@@ -115,3 +115,5 @@ In the terminal, run:
 ```bash
 ansible-playbook -v test_apache_playbook.yaml
 ```
+![ANSIBLE playbook](images/02playbook.png)
+
