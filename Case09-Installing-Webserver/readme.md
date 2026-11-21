@@ -117,3 +117,31 @@ ansible-playbook -v test_apache_playbook.yaml
 ```
 ![ANSIBLE playbook](images/02playbook.png)
 
+**4.3)** Create the Apache installation Playbook
+
+Create the file **install_apache_playbook.yaml** and paste this:
+
+```bash
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: INSTALL APACHE2
+      apt: name=apache2 update_cache=yes state=latest
+
+    - name: ENABLED MOD_REWRITE
+      apache2_module: name=rewrite state=present
+      notify:
+        - RESTART APACHE2
+
+  handlers:
+    - name: RESTART APACHE2
+      service: name=apache2 state=restarted
+```
+![ANSIBLE playbook](images/02playbook.png)
+
+**4.4)** Run it in the terminal:
+
+```bash
+ansible-playbook -v install_apache_playbook.yaml
+```
