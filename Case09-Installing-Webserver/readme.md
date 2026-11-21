@@ -63,7 +63,13 @@ Open the ansible.cfg file inside ansible-apache.
 Modify it so that it looks exactly like this:
 
 ```text
-
+[defaults]
+# Use local hosts file in this folder
+inventory=./hosts
+# Don't worry about RSA Fingerprints
+host_key_checking = False
+# Do not create retry files
+retry_files_enabled = False
 ```
 
 
