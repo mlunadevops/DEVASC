@@ -38,6 +38,28 @@ By default, the SSH server is turned off in the DEVASC VM to save resources. Ans
 ```text
 sudo systemctl start ssh
 ```
+**3.1)** : Open the working directory in VS Code. Open VS Code.
+
+Go to File > Open Folder... and navigate to /labs/devnet-src/ansible.
+
+We will work inside the ansible-apache folder.
+
+Step 3: Edit the inventory file (hosts)
+
+Open the hosts file inside ansible-apache.
+
+Add these lines (make sure there are no typos in the password):
+
+[webservers]
+
+```text
+192.0.2.3 ansible_ssh_user=devasc ansible_ssh_pass=Cisco123!
+```
+
+
+
+
+
 
 ### 4. BGP Configuration:
 
