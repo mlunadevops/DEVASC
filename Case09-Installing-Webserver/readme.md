@@ -138,10 +138,10 @@ Create the file **install_apache_playbook.yaml** and paste this:
     - name: RESTART APACHE2
       service: name=apache2 state=restarted
 ```
-![ANSIBLE playbook](images/03playbook.png)
 
 **4.4)** Run it in the terminal:
 
 ```bash
 ansible-playbook -v install_apache_playbook.yaml
 ```
+![ANSIBLE playbook](images/03playbook.png)
