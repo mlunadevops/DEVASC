@@ -46,8 +46,8 @@ ansible-csr1000v/
     └── IPv6_output_CSR1kv.txt
 ```
 
+**Relationship and Purpose of Each File:**
 
-Aquí te explico qué hace cada pieza y cómo se conectan entre sí:
 
 **1. hosts (El Diccionario de Dispositivos):** Contains the devices **(IPs)** and their credentials **(username, password)**, for example:
 
