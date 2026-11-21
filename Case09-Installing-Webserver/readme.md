@@ -16,6 +16,7 @@
 ## 1. Introduction and Theoretical Framework
 
 **Part 1:** Start the DEVASC VM.
+
 **Part 2:** Configure Ansible (Inventory and Configuration).
 
 **Part 3:** Verify communication with the Local Web Server.
@@ -23,8 +24,6 @@
 **Part 4:** Create Playbooks to automate the installation of Apache.
 
 **Part 5**: Add options to the Playbook (Change the port to 8081).
-
-
 
 ## 2. Topology and BGP Neighbor Establishment
 
@@ -38,11 +37,10 @@ The topology consists of four routers across different Autonomous Systems (AS 10
 
 **3.1)** Configurar Ansible (Inventario y Configuración):
 
-
-**Router:**
+By default, the SSH server is turned off in the DEVASC VM to save resources. Ansible needs it to be on in order to connect to itself. Run in the terminal:
 
 ```text
-router bgp 100
+sudo systemctl start ssh
 ```
 
 ### 4. BGP Configuration:
