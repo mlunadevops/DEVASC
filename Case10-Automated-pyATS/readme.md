@@ -67,7 +67,7 @@ We are going to create an "isolated space" to install pyATS without affecting th
 
 **1.1) Create the working folder and enter it::**
 
-**venv:** isolates only Python packages (site-packages and the interpreter).
+**venv:** isolates only Python packages (site-packages and the interpreter). It`s like a sandbox.
 
 ```text
 python3 -m venv csr1kv
