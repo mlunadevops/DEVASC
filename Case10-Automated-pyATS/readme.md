@@ -87,9 +87,9 @@ source bin/activate
 ```
 ![Creating Virtual Environment](images/01Commands.png)
 
-**Part 3:** Use the pyATS Testing Library
+**Part 2:** Use the pyATS Testing Library
 
-**3.1) Install pyATS**
+**2.1) Install pyATS**
 
 Inside the virtual environment (make sure you see (csr1kv) in your terminal), run:
 
@@ -111,7 +111,7 @@ Breakdown of the command:
 
 (This command will download quite a few packages. It may take a few minutes. If you see some compilation errors along the way, they can usually be ignored as long as the installation finishes.)
 
-**3.2) Verify the installation**
+**2.2) Verify the installation**
 
 Verify that it was installed correctly by running:
 
@@ -119,7 +119,7 @@ Verify that it was installed correctly by running:
 pyats --help
 ```
 
-**3.3)  Clone the example scripts:**
+**2.3)  Clone the example scripts:**
 
 Let's download Cisco's official example scripts:
 
