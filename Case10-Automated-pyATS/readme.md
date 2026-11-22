@@ -184,6 +184,19 @@ genie learn config --testbed-file yaml/testbed.yml --devices csr1kv --output bas
 ```
 ![Diff](images/03Diff.png)
 
+**4.2)** Make a manual change on the router:
+
+In order to compare, we need something to change. Go to your router's console (in VirtualBox) or connect via SSH from another terminal, and make a small change. For example, change the interface description:
+
+```text
+enable
+configure terminal
+interface GigabitEthernet1
+ description CAMBIO_PARA_PRUEBA_DE_DIFF
+ exit
+end
+```
+
 
 ### 4. BGP Configuration:
 
