@@ -169,6 +169,9 @@ Run this command (all on a single line), this command will use the info stored i
 genie parse "show version" --testbed-file yaml/testbed.yml --devices csr1kv
 ```
 
+![Parse](images/03Parse.png)
+
+
 ### 4. BGP Configuration:
 
 
