@@ -119,6 +119,14 @@ Verify that it was installed correctly by running:
 pyats --help
 ```
 
+**3.3)  Clone the example scripts:**
+
+Let's download Cisco's official example scripts:
+
+```text
+git clone https://github.com/CiscoTestAutomation/examples
+```
+
 
 ### 4. BGP Configuration:
 
