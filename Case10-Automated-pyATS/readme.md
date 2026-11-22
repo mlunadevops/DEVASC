@@ -171,6 +171,19 @@ genie parse "show version" --testbed-file yaml/testbed.yml --devices csr1kv
 
 ![Parse](images/03Parse.png)
 
+**Part 4:** Comparing Configurations (Diff):
+
+
+**4.1)** Create the first Snapshot (Baseline)
+Let's tell Genie to "learn" the router's current configuration and save it in a folder called baseline_snapshot.
+
+Run in your terminal (inside the (csr1kv) environment):
+
+```text
+genie learn config --testbed-file yaml/testbed.yml --devices csr1kv --output baseline_snapshot
+```
+![Diff](images/03Diff.png)
+
 
 ### 4. BGP Configuration:
 
