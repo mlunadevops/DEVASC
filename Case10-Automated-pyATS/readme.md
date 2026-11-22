@@ -158,8 +158,15 @@ Note:  This command will create the testbed.yml file at the path (yaml/testbed.y
 
 ![Verificacion](images/02Contentymal.png)
 
-**3.2)** 
+**3.2)**  Parse a command **(Convert text to JSON)**
 
+Now that Genie knows your router, let's ask it to run the show version command and show us the result in JSON format.
+
+Run this command (all on a single line):
+
+```text
+genie parse "show version" --testbed-file yaml/testbed.yml --devices CSR1kv
+```
 
 ### 4. BGP Configuration:
 
