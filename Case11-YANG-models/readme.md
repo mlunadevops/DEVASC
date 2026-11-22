@@ -66,3 +66,14 @@ Download the file directly using wget (we'll use the GitHub "Raw" URL):
 wget https://raw.githubusercontent.com/YangModels/yang/master/vendor/cisco/xe/1693/ietf-interfaces.yang
 ```
 ![WGET](images/01wget.png)
+
+**4:1)** Explore a YANG Model Using pyang:
+
+pyang is an open-source tool that validates YANG models and transforms them into formats that are much easier for humans to read.
+
+Step 1: Verify that pyang is installed
+In the terminal, run:
+
+```bash
+pyang -v
+```
