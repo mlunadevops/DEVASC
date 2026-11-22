@@ -149,6 +149,9 @@ Run this command in your terminal:
 ```text
 genie create testbed interactive --output yaml/testbed.yml --encode-password
 ```
+![CDatos](images/02Creaciondatos.png)
+
+
 
 ### 4. BGP Configuration:
 
