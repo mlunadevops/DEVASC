@@ -197,6 +197,14 @@ interface GigabitEthernet1
 end
 ```
 
+**4.3)** Create the second Snapshot:
+
+Go back to your DEVASC VM terminal and save the new state in another folder:
+
+```text
+genie learn config --testbed-file yaml/testbed.yml --devices csr1kv --output modified_snapshot
+```
+
 
 ### 4. BGP Configuration:
 
