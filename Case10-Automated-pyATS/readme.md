@@ -27,7 +27,7 @@
 
 **D)** Centralized inventory (Testbed): Instead of putting IP addresses, usernames, and passwords inside your Python code, pyATS uses a YAML file (testbed.yaml) where you describe your entire network topology (routers, switches, interfaces, and credentials).
 
-Automatic reports and logs: When a run finishes, pyATS generates detailed reports indicating exactly which tests passed (PASSED), which failed (FAILED), and saves the evidence in organized logs without you having to program it.
+**E)** Automatic reports and logs: When a run finishes, pyATS generates detailed reports indicating exactly which tests passed (PASSED), which failed (FAILED), and saves the evidence in organized logs without you having to program it.
 
 **Genie (Framework) =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration.
 
