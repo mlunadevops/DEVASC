@@ -77,3 +77,5 @@ In the terminal, run:
 ```bash
 pyang -v
 ```
+![yang version](images/02YangVER.png)
+
