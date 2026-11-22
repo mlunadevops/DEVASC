@@ -56,8 +56,7 @@ Agility from the terminal: You can use Genie directly from the Linux command lin
 
 The
 
-![BGP WEIGTH](images/01Topologia.jpg)
-
+![BGP WEIGTH](images/00Topologia.jpg)
 
 ## 3. IMPLEMENTATION:
 
