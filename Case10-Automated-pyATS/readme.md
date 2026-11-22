@@ -212,9 +212,9 @@ Now comes the magic. Use Genie's diff command to compare both folders:
 ```text
 genie diff baseline_snapshot modified_snapshot
 ```
+![Diff](images/05Diff.png)
 
 
-### 4. BGP Configuration:
 
 
 
