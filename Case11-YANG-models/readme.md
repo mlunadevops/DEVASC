@@ -60,4 +60,8 @@ mkdir pyang && cd pyang
 ```
 ![YANG](images/01Folder.png)
 
+Download the file directly using wget (we'll use the GitHub "Raw" URL):
 
+```bash
+wget https://raw.githubusercontent.com/YangModels/yang/master/vendor/cisco/xe/1693/ietf-interfaces.yang
+```
