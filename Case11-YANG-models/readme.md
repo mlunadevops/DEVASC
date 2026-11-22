@@ -31,7 +31,7 @@ Objectives
 
 ## 3. IMPLEMENTATION:
 
-**Step 3:** Explore the model in the browser
+**3:1)** Explore the model in the browser
 
 Open the Chromium browser inside the DEVASC VM.
 
