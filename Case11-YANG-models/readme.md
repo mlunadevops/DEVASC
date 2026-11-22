@@ -33,35 +33,22 @@ Objectives
 
 ## 3. IMPLEMENTATION:
 
-**Parts 1 and 2:** Create a Python virtual environment (venv).
-We are going to create an "isolated space" to install pyATS without affecting the VM's base system.
+**Step 3.1:** Explore the model in the browser
+Open the Chromium browser inside the DEVASC VM.
 
-**1.1) Create the working folder and enter it::**
+Go to the URL: **https://github.com/YangModels/yang**
+
+On the master branch, navigate through the folders until you reach the IOS XE 16.9.3 version:
+
+vendor > cisco > xe > 1693
+
+Look for the **ietf-interfaces.yang** file and open it.
+
+You will see the source code of the model. If you are familiar with Cisco's show interfaces, you will see concepts such as leaf enabled (which is a boolean that indicates whether the interface is active or not)
 
 ```text
 python3 -m venv csr1kv
 ```
-
-**1.2) Enter the virtual environment:**
-
-```text
-cd csr1kv
-```
-
-**Part 3:** Use the pyATS Testing Library
-
-**3.1) Install pyATS**
-
-Inside the virtual environment (make sure you see (csr1kv) in your terminal), run:
-
-```text
-pip3 install pyats[full]
-```
-
-
-**3.2) Verify the installation**
-
-Verify that it was installed correctly by running:
 
 ```text
 pyats --help
