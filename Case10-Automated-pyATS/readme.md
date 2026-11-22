@@ -64,6 +64,7 @@ What does each part mean?
 cd csr1kv
 source bin/activate
 ```
+![Creating Virtual Environment](images/01Commands.png)
 
 **Part 3:** Use the pyATS Testing Library
 
