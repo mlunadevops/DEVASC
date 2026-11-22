@@ -54,7 +54,8 @@ You will see the source code of the model. If you are familiar with Cisco's show
 
 Create the pyang folder and enter it:
 
+```bash
 bash
 mkdir pyang && cd pyang
-
+```
 
