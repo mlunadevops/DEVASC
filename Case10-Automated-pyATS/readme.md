@@ -17,9 +17,9 @@
 
 **In the world of programming and network automation, the difference between using loose scripts and using a framework is the same as the difference between building a house by buying bricks and cement on your own versus using a prefabricated structure with blueprints, foundations, and rules already defined.**
 
-**pyATS =** Framework The infrastructure for organizing, running, and reporting automated network tests in a professional way.
+**pyATS (Framework) =** The infrastructure for organizing, running, and reporting automated network tests in a professional way.
 
-**Genie =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration.
+**Genie (Framework) =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration.
 
 Objectives:
 
