@@ -25,6 +25,19 @@
 
 **Part 5**: Add options to the Playbook (Change the port to 8081).
 
+Structure:
+
+```text
+ansible-apache/
+│
+├── .gitignore
+├── ansible.cfg
+├── hosts
+├── test_apache_playbook.yaml
+├── install_apache_playbook.yaml
+└── install_apache_options_playbook.yaml
+```
+
 ## 2. Topology and BGP Neighbor Establishment
 
 ![BGP WEIGTH](images/01Topologia.jpg)
