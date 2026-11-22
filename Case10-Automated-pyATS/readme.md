@@ -204,6 +204,7 @@ Go back to your DEVASC VM terminal and save the new state in another folder:
 ```text
 genie learn config --testbed-file yaml/testbed.yml --devices csr1kv --output modified_snapshot
 ```
+![Diff](images/04Diff.png)
 
 
 ### 4. BGP Configuration:
