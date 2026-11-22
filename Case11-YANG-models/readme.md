@@ -58,4 +58,6 @@ Create the pyang folder and enter it:
 bash
 mkdir pyang && cd pyang
 ```
+![YANG](images/01Folder.png)
+
 
