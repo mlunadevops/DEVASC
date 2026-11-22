@@ -135,6 +135,8 @@ Run the following command to transform the file you downloaded:
 ```bash
 pyang -f tree ietf-interfaces.yang
 ```
+![Interfaces YANG](images/00Yanginterfaces.png)
+
 
 ```bash
 wget https://raw.githubusercontent.com/YangModels/yang/master/standard/ietf/RFC/ietf-yang-types.yang
