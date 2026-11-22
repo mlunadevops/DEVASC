@@ -166,7 +166,7 @@ Now that Genie knows your router (it is in **"Testbed.yml"** file), let's ask it
 Run this command (all on a single line), this command will use the info stored in **"Testbed.yml"** in order to connect to the device **CSR1kv** and get **"show version"** output :
 
 ```text
-genie parse "show version" --testbed-file yaml/testbed.yml --devices CSR1kv
+genie parse "show version" --testbed-file yaml/testbed.yml --devices csr1kv
 ```
 
 ### 4. BGP Configuration:
