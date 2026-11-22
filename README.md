@@ -14,4 +14,5 @@
 | **07** | [Config CSR1000v VM](./Case07-Config-CSR1000v/) | Configuring CSR1000v VM |
 | **08** | [Ansible CSR1000v VM](./Case08-Ansible-CSR1000v/) | Using Ansible CSR1000v VM |
 | **09** | [Ansible Install Web Server](./Case09-Installing-Webserver/) | Ansible to Automate Installing a Web Server |
+| **10** | [Automated Testing Using pyATS and Genie](./Case10-Automated-pyATS/) | Automated Testing Using pyATS and Genie |
 | ... | ... | ... |
