@@ -142,7 +142,7 @@ This is the most exciting part. We are going to use Genie to connect to your CSR
 
 **3.1)** Create the Testbed file (YAML)
 
-The "Testbed" file tells Genie which device to connect to and with which credentials. We will create it with an interactive wizard.
+The **"Testbed"** file tells Genie which device to connect to and with which credentials. We will create it with an interactive wizard.
 
 Run this command in your terminal:
 
