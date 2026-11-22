@@ -88,3 +88,6 @@ Run the following command to transform the file you downloaded:
 pyang -f tree ietf-interfaces.yang
 ```
 
+```bash
+wget https://raw.githubusercontent.com/YangModels/yang/master/standard/ietf/RFC/ietf-yang-types.yang
+```
