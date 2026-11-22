@@ -29,9 +29,18 @@
 
 **E)** Automatic reports and logs: When a run finishes, pyATS generates detailed reports indicating exactly which tests passed (PASSED), which failed (FAILED), and saves the evidence in organized logs without you having to program it.
 
-**Genie (Framework) =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration.
+**Genie (Framework) =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration. If pyATS is the engine and testing structure, Genie is the **"network-specialized toolbox"** built on top of pyATS (and it is the main reason we will install pyats[full]).
 
-Objectives:
+When you connect to a Cisco**CSR 1000v** router via CLI, the router responds with plain text designed for humans (for example, the table from show ip interface brief or show ip route). Processing that text with regular expressions in Python is slow and error-prone. Genie solves this in three ways:
+
+Parsers (syntactic analyzers): Genie includes thousands of ready-to-use parsers for Cisco devices (IOS, IOS-XE, NX-OS, IOS-XR) and other vendors. You pass it the text output of a command such as show ip interface brief and Genie automatically returns it converted into a clean Python dictionary / JSON, where you can directly query output['interface']['GigabitEthernet1']['ip_address'].
+
+State learning and comparison (Diff): With a single command (genie learn ospf or genie learn routing), Genie captures a complete "snapshot" of how your network is operating before a change (for example, a maintenance window), captures another one after the change, and shows you exactly what changed (which neighbor went down, which route disappeared, or which interface changed state).
+
+Agility from the terminal: You can use Genie directly from the Linux command line without even writing a Python script yet (for example: genie parse "show version" --testbed-file testbed.yaml).
+
+
+**Project Objectives:**
 
 **Parts 1 and 2:** Create a Python virtual environment (venv).
 
