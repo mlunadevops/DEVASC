@@ -149,6 +149,9 @@ Run this command in your terminal:
 ```text
 genie create testbed interactive --output yaml/testbed.yml --encode-password
 ```
+
+Note:  This command will create the testbed.yml file at the path (yaml/testbed.yml) interactively.
+
 ![CDatos](images/02Creaciondatos.png)
 
 
