@@ -17,7 +17,17 @@
 
 **In the world of programming and network automation, the difference between using loose scripts and using a framework is the same as the difference between building a house by buying bricks and cement on your own versus using a prefabricated structure with blueprints, foundations, and rules already defined.**
 
-**pyATS (Framework) =** The infrastructure for organizing, running, and reporting automated network tests in a professional way.
+**pyATS (Framework) =** The infrastructure for organizing, running, and reporting automated network tests in a professional way. Specifically, pyATS is useful for Standardizing the testing cycle: It divides your automations into three clear phases:
+
+**A)** Setup (prepare the environment and connect to the router).
+
+**B** Test (run commands, apply changes, or verify states).
+
+**C)** Cleanup (leave the device as clean as it was before).
+
+**D)** Centralized inventory (Testbed): Instead of putting IP addresses, usernames, and passwords inside your Python code, pyATS uses a YAML file (testbed.yaml) where you describe your entire network topology (routers, switches, interfaces, and credentials).
+
+Automatic reports and logs: When a run finishes, pyATS generates detailed reports indicating exactly which tests passed (PASSED), which failed (FAILED), and saves the evidence in organized logs without you having to program it.
 
 **Genie (Framework) =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration.
 
