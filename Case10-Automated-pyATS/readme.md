@@ -156,6 +156,9 @@ Note:  This command will create the testbed.yml file at the path (yaml/testbed.y
 
 
 
+![Verificacion](images/02Contentymal.png)
+
+
 ### 4. BGP Configuration:
 
 
