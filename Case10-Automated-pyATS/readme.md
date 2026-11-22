@@ -92,7 +92,7 @@ source bin/activate
 
 **Part 2:** Use the pyATS Testing Library
 
-**2.1) Install pyATS**
+**2.1) Install pyATS (FRAMEWORK)**
 
 Inside the virtual environment (make sure you see (csr1kv) in your terminal), run:
 
@@ -114,7 +114,7 @@ Breakdown of the command:
 
 (This command will download quite a few packages. It may take a few minutes. If you see some compilation errors along the way, they can usually be ignored as long as the installation finishes.)
 
-**2.2) Verify the installation**
+**2.2) Verify the pyATS installation**
 
 Verify that it was installed correctly by running:
 
