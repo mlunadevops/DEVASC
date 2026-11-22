@@ -24,6 +24,14 @@ Objectives
 
 **Part 3:** Use pyang to transform the YANG model into a readable format (tree).
 
+File structure:
+
+```bash
+yang-lab/
+├── ietf-interfaces.yang
+├── ietf-yang-types.yang
+└── tree-output.txt
+```
 
 ## 2. Topology and BGP Neighbor Establishment
 
