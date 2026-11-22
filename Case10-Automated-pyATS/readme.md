@@ -17,6 +17,8 @@
 
 **In the world of programming and network automation, the difference between using loose scripts and using a framework is the same as the difference between building a house by buying bricks and cement on your own versus using a prefabricated structure with blueprints, foundations, and rules already defined.**
 
+**venv:** isolates only Python packages (site-packages and the interpreter).
+
 **pyATS (Framework) =** The infrastructure for organizing, running, and reporting automated network tests in a professional way. Specifically, pyATS is useful for Standardizing the testing cycle: It divides your automations into three clear phases:
 
 **A)** Setup (prepare the environment and connect to the router).
