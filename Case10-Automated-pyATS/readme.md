@@ -129,6 +129,12 @@ git clone https://github.com/CiscoTestAutomation/examples
 
 ![Clonar repositorio](images/02Clonarrepo.png)
 
+**3.4)  Let's run the example script to see how pyATS works. Run:**
+
+```text
+pyats run job examples/basic/basic_example_job.py
+```
+
 ### 4. BGP Configuration:
 
 
