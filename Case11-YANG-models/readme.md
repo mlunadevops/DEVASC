@@ -43,6 +43,8 @@ vendor > cisco > xe > 1693
 
 Look for the **ietf-interfaces.yang** file and open it.
 
+![YANG](images/01Yang.png)
+
 You will see the source code of the model. If you are familiar with Cisco's show interfaces, you will see concepts such as leaf enabled (which is a boolean that indicates whether the interface is active or not).
 
 
