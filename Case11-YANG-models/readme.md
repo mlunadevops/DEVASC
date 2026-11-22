@@ -15,6 +15,19 @@
 
 ## 1. Introduction and Theoretical Framework
 
+**YANG:** es la estructura y reglas de los datos y el JSON es la formato de datos.
+
+**YANG =** La estructura y las reglas.
+
+**JSON =** El formato de los datos.
+
+Para que se te quede grabado como un concepto de arquitectura sólida, piensa en cómo funciona una base de datos relacional (como MySQL o PostgreSQL):
+
+YANG es el "Esquema de la Tabla" (Schema): Cuando creas una tabla, defines que la columna "Edad" debe ser un número entero (INT), y la columna "Nombre" debe ser texto (VARCHAR). La base de datos no te dejará guardar la palabra "veinte" en la columna Edad. Eso es YANG.
+
+JSON es la "Fila" (Row): Es el registro real que insertas. Es el {"Nombre": "Carlos", "Edad": 30}. Eso es JSON.
+---------------------------------------------------------------------------------------
+
 Explore YANG Models
 Objectives
 
