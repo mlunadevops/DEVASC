@@ -33,6 +33,33 @@ yang-lab/
 └── tree-output.txt
 ```
 
+# Exploración de Modelos YANG con pyang
+
+Este laboratorio demuestra cómo usar la herramienta `pyang` para visualizar y validar modelos de datos YANG, que son la base para la configuración de dispositivos de red modernos mediante APIs (RESTCONF, NETCONF).
+
+## Archivos del Proyecto
+- `ietf-interfaces.yang`: Modelo estándar de la IETF que define cómo se configuran y monitorean las interfaces de red.
+- `ietf-yang-types.yang`: Archivo de dependencias necesario para que el modelo principal compile sin errores.
+- `tree-output.txt`: Salida generada por `pyang` en formato árbol.
+
+## Conceptos Clave del Formato "Tree"
+- **`rw` (Read-Write):** Nodos que representan configuración que podemos modificar (ej. el `enabled` de una interfaz).
+- **`ro` (Read-Only):** Nodos que representan el estado actual del dispositivo (ej. contadores de tráfico, estado operativo).
+- **`?` (Opcional):** El campo puede no estar presente.
+- **`*` (Múltiple):** Puede haber varias instancias de este nodo (como las múltiples interfaces de un router).
+- **`[name]`:** Es la clave (Key) o identificador único del nodo.
+
+## Comandos Utilizados
+```bash
+# Descargar el modelo y su dependencia
+wget https://raw.githubusercontent.com/YangModels/yang/master/vendor/cisco/xe/1693/ietf-interfaces.yang
+wget https://raw.githubusercontent.com/YangModels/yang/master/standard/ietf/RFC/ietf-yang-types.yang
+
+# Transformar a formato árbol
+pyang -f tree ietf-interfaces.yang
+
+
+
 ## 2. Topology and BGP Neighbor Establishment
 
 ![BGP WEIGTH](images/01Topologia.jpg)
