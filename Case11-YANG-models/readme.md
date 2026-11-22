@@ -79,3 +79,12 @@ pyang -v
 ```
 ![yang version](images/02YangVER.png)
 
+**4:1)** Transform the model (Tree format)
+The most useful format in pyang is "tree", which shows us the model's hierarchy as if it were a family tree.
+
+Run the following command to transform the file you downloaded:
+
+```bash
+pyang -f tree ietf-interfaces.yang
+```
+
