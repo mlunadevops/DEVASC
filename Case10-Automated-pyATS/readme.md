@@ -206,6 +206,13 @@ genie learn config --testbed-file yaml/testbed.yml --devices csr1kv --output mod
 ```
 ![Diff](images/04Diff.png)
 
+**4.3)** Compare the Snapshots (The "Diff") 
+Now comes the magic. Use Genie's diff command to compare both folders:
+
+```text
+genie diff baseline_snapshot modified_snapshot
+```
+
 
 ### 4. BGP Configuration:
 
