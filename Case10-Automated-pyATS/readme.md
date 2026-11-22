@@ -29,7 +29,7 @@
 
 **E)** Automatic reports and logs: When a run finishes, pyATS generates detailed reports indicating exactly which tests passed (PASSED), which failed (FAILED), and saves the evidence in organized logs without you having to program it.
 
-**Genie (Framework) =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration. If pyATS is the engine and testing structure, Genie is the **"network-specialized toolbox"** built on top of pyATS (and it is the main reason we will install pyats[full]).
+**Genie (Toolbox) =** The network intelligence inside pyATS that understands router CLI, converts text into structured data (JSON/dictionaries), and detects changes in the network before and after a configuration. If pyATS is the engine and testing structure, Genie is the **"network-specialized toolbox"** built on top of pyATS (and it is the main reason we will install pyats[full]).
 
 When you connect to a Cisco**CSR 1000v** router via CLI, the router responds with plain text designed for humans (for example, the table from show ip interface brief or show ip route). Processing that text with regular expressions in Python is slow and error-prone. Genie solves this in three ways:
 
