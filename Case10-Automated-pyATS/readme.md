@@ -127,6 +127,7 @@ Let's download Cisco's official example scripts:
 git clone https://github.com/CiscoTestAutomation/examples
 ```
 
+![Clonar repositorio](images/02Clonarrepo.png)
 
 ### 4. BGP Configuration:
 
