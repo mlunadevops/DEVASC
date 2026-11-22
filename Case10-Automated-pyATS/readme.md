@@ -157,13 +157,11 @@ Note:  This command will create the testbed.yml file at the path (yaml/testbed.y
 
 ![CDatos](images/02Creaciondatos.png)
 
-
-
 ![Verificacion](images/02Contentymal.png)
 
 **3.2)**  Parse a command **(Convert text to JSON)**
 
-Now that Genie knows your router, let's ask it to run the show version command and show us the result in JSON format.
+Now that Genie knows your router (it is in **"Testbed"** file), let's ask it to run the show version command and show us the result in JSON format.
 
 Run this command (all on a single line):
 
