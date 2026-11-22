@@ -25,15 +25,14 @@ Objectives
 **Part 3:** Use pyang to transform the YANG model into a readable format (tree).
 
 
-
-
 ## 2. Topology and BGP Neighbor Establishment
 
 ![BGP WEIGTH](images/01Topologia.jpg)
 
 ## 3. IMPLEMENTATION:
 
-**Step 3.1:** Explore the model in the browser
+**Step 3:** Explore the model in the browser
+
 Open the Chromium browser inside the DEVASC VM.
 
 Go to the URL: **https://github.com/YangModels/yang**
@@ -44,12 +43,16 @@ vendor > cisco > xe > 1693
 
 Look for the **ietf-interfaces.yang** file and open it.
 
-You will see the source code of the model. If you are familiar with Cisco's show interfaces, you will see concepts such as leaf enabled (which is a boolean that indicates whether the interface is active or not)
+You will see the source code of the model. If you are familiar with Cisco's show interfaces, you will see concepts such as leaf enabled (which is a boolean that indicates whether the interface is active or not).
 
-```text
-python3 -m venv csr1kv
+
+```bash
+   cd ~/labs/devnet-src
 ```
 
-```text
-pyats --help
-```
+Create the pyang folder and enter it:
+
+bash
+mkdir pyang && cd pyang
+
+
