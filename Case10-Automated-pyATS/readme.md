@@ -161,9 +161,9 @@ Note:  This command will create the testbed.yml file at the path (yaml/testbed.y
 
 **3.2)**  Parse a command **(Convert text to JSON)**
 
-Now that Genie knows your router (it is in **"Testbed"** file), let's ask it to run the show version command and show us the result in JSON format.
+Now that Genie knows your router (it is in **"Testbed.yml"** file), let's ask it to run the show version command and show us the result in JSON format.
 
-Run this command (all on a single line):
+Run this command (all on a single line), this command will use the info stored in **"Testbed.yml"** in order to connect to the device **CSR1kv** and get **"show version"** output :
 
 ```text
 genie parse "show version" --testbed-file yaml/testbed.yml --devices CSR1kv
