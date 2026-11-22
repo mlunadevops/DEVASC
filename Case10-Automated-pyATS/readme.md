@@ -140,7 +140,7 @@ This is the most exciting part. We are going to use Genie to connect to your CSR
 
 (Make sure you are still inside your virtual environment, that is, your prompt should still start with (csr1kv).)
 
-Step 1: Create the Testbed file (YAML)
+**3.1)** Create the Testbed file (YAML)
 
 The "Testbed" file tells Genie which device to connect to and with which credentials. We will create it with an interactive wizard.
 
