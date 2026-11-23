@@ -16,5 +16,5 @@
 | **09** | [Ansible Install Web Server](./Case09-Installing-Webserver/) | Ansible to Automate Installing a Web Server |
 | **10** | [Automated Testing Using pyATS and Genie](./Case10-Automated-pyATS/) | Automated Testing Using pyATS and Genie |
 | **11** | [YANG models](./Case11-YANG-models/) | Explore YANG Models |
-| **12** | [YANG models](./Case12-NETCONFIG-iosxe/) | Use NETCONF to Access an IOS XE Device |
+| **12** | [NETCONF to IOS XE](./Case12-NETCONFIG-iosxe/) | Use NETCONF to Access an IOS XE Device |
 | ... | ... | ... |
